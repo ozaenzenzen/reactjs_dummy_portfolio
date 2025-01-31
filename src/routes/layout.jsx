@@ -33,11 +33,11 @@ const Layout = () => {
                     !collapsed && "max-md:pointer-events-auto max-md:z-50 max-md:opacity-30",
                 )}
             />
-            <Sidebar
+            {/* <Sidebar
                 ref={sidebarRef}
                 collapsed={collapsed}
-            />
-            <div className={cn("transition-[margin] duration-300", collapsed ? "md:ml-[70px]" : "md:ml-[240px]")}>
+            /> */}
+            <div className={cn("transition-[margin] duration-300", collapsed ? "md:ml-[0px]" : "md:ml-[0px]")}>
                 <Header
                     collapsed={collapsed}
                     setCollapsed={setCollapsed}

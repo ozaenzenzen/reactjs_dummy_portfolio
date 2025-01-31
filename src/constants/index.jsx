@@ -3,6 +3,24 @@ import { ChartColumn, Home, NotepadText, Package, PackagePlus, Settings, Shoppin
 import ProfileImage from "@/assets/profile-image2.jpg";
 import ProductImage from "@/assets/product-image.jpg";
 
+export const newMenus = [
+    {
+        title: "Home",
+    },
+    {
+        title: "About Me",
+    },
+    {
+        title: "Project",
+    },
+    {
+        title: "Experience",
+    },
+    {
+        title: "Contact",
+    },
+];
+
 export const navbarLinks = [
     {
         title: "Dashboard",

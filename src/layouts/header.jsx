@@ -5,6 +5,10 @@ import { useTheme } from "../hooks/use-theme";
 import profilePicture from "../assets/profile-image2.jpg";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { cn } from "../utils/cn";
+import logoLight from "@/assets/logo-light.svg";
+import logoDark from "@/assets/logo-dark.svg";
+import { navbarLinks, newMenus } from "@/constants";
+import { NavLink } from "react-router-dom";
 
 const Header = ({ collapsed, setCollapsed }) => {
     const { theme, setTheme } = useTheme();
@@ -12,7 +16,20 @@ const Header = ({ collapsed, setCollapsed }) => {
     return (
         <header className="relative z-10 flex h-[60px] items-center justify-between bg-white px-4 shadow-md transition-colors dark:bg-slate-900">
             <div className="flex items-center gap-x-3">
-                <button
+                <div className="flex gap-x-3 p-3">
+                    <img
+                        src={logoLight}
+                        alt="Logoipsum"
+                        className="dark:hidden"
+                    />
+                    <img
+                        src={logoDark}
+                        alt="Logoipsum"
+                        className="hidden dark:block"
+                    />
+                    {!collapsed && <p className="text-lg font-medium text-slate-900 transition-colors dark:text-slate-50">Fauzan's Lab</p>}
+                </div>
+                {/* <button
                     className="btn-ghost size-10"
                     onClick={() => setCollapsed(!collapsed)}
                 >
@@ -30,6 +47,18 @@ const Header = ({ collapsed, setCollapsed }) => {
                         placeholder="Search"
                         className="w-full bg-transparent text-slate-900 outline-0 placeholder:text-slate-300 dark:text-slate-50"
                     />
+                </div> */}
+            </div>
+            <div className="flex items-center gap-x-3">
+                <div className="inline-flex space-x-6 w-full flex-row gap-y-4 overflow-y-auto overflow-x-hidden p-3 [scrollbar-width:_thin]">
+                    {newMenus.map((newMenu) => (
+                        <div
+                            key={newMenu.title}
+                            className={cn("sidebar-group-title", collapsed && "md:items-center hidden lg:block")}
+                        >
+                            <p className={cn("sidebar-group-title", collapsed && "md:w-[45px]", "w-full cursor-pointer text-center p-2")}>{newMenu.title}</p>
+                        </div>
+                    ))}
                 </div>
             </div>
             <div className="flex items-center gap-x-3">
@@ -106,7 +135,7 @@ const Header = ({ collapsed, setCollapsed }) => {
                                 {({ active }) => (
                                     <div
                                         // className={cn(active && "bg-gray-100", "cursor-pointer rounded-sm px-4 py-2 text-gray-700 focus:bg-gray-200")}
-                                        className={cn(active && "bg-gray-100", "cursor-pointer sidebar-item")}
+                                        className={cn(active && "bg-gray-100", "sidebar-item cursor-pointer")}
                                         onClick={() => navigate("/profile")}
                                     >
                                         Your Profile
@@ -117,7 +146,7 @@ const Header = ({ collapsed, setCollapsed }) => {
                                 {({ active }) => (
                                     <div
                                         // className={cn(active && "bg-gray-100", "cursor-pointer rounded-sm px-4 py-2 text-gray-700 focus:bg-gray-200")}
-                                        className={cn(active && "bg-gray-100", "cursor-pointer sidebar-item")}
+                                        className={cn(active && "bg-gray-100", "sidebar-item cursor-pointer")}
                                         onClick={() => navigate("/settings")}
                                     >
                                         Settings
@@ -131,7 +160,7 @@ const Header = ({ collapsed, setCollapsed }) => {
                                         //     active && "bg-gray-100",
                                         //     "inline-flex w-full cursor-pointer rounded-sm px-4 py-2 text-gray-700 focus:bg-gray-200",
                                         // )}
-                                        className={cn(active && "bg-gray-100", "cursor-pointer sidebar-item")}
+                                        className={cn(active && "bg-gray-100", "sidebar-item cursor-pointer")}
                                         onClick={() => navigate("/logout")}
                                     >
                                         <span>
