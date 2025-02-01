@@ -13,6 +13,7 @@
     "@headlessui/react": "^2.2.0",
     "@uidotdev/usehooks": "^2.4.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.0.6",
     "hooks": "^0.3.2",
     "lucide-react": "^0.474.0",
     "react": "^18.3.1",
