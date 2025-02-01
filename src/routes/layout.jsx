@@ -7,6 +7,11 @@ import { useClickOutside } from "../hooks/use-click-outside";
 import { cn } from "../utils/cn";
 import Header from "../layouts/header";
 import { Outlet } from "react-router-dom";
+import DashboardPage from "./dashboard/page";
+import AboutMePage from "./dashboard/AboutMePage";
+import ProjectPage from "./dashboard/ProjectPage";
+import ExperiencePage from "./dashboard/ExperiencePage";
+import ContactPage from "./dashboard/ContactPage";
 
 const Layout = () => {
     const isDesktopDevice = useMediaQuery("(min-width: 768px)");
@@ -44,6 +49,11 @@ const Layout = () => {
                 />
                 <div className="h-[calc(100vh-60px)] overflow-y-auto overflow-x-hidden p-6">
                     <Outlet />
+                    {/* <DashboardPage />
+                    <AboutMePage />
+                    <ProjectPage />
+                    <ExperiencePage />
+                    <ContactPage /> */}
                 </div>
             </div>
         </div>

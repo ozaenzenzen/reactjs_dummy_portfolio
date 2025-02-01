@@ -6,18 +6,23 @@ import ProductImage from "@/assets/product-image.jpg";
 export const newMenus = [
     {
         title: "Home",
+        path: '/',
     },
     {
         title: "About Me",
+        path: 'aboutme',
     },
     {
         title: "Project",
+        path: 'project',
     },
     {
         title: "Experience",
+        path: 'experience',
     },
     {
         title: "Contact",
+        path: 'contact',
     },
 ];
 

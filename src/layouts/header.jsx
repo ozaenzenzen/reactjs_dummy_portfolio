@@ -8,7 +8,7 @@ import { cn } from "../utils/cn";
 import logoLight from "@/assets/logo-light.svg";
 import logoDark from "@/assets/logo-dark.svg";
 import { navbarLinks, newMenus } from "@/constants";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = ({ collapsed, setCollapsed }) => {
     const { theme, setTheme } = useTheme();
@@ -50,14 +50,15 @@ const Header = ({ collapsed, setCollapsed }) => {
                 </div> */}
             </div>
             <div className="flex items-center gap-x-3">
-                <div className="inline-flex space-x-6 w-full flex-row gap-y-4 overflow-y-auto overflow-x-hidden p-3 [scrollbar-width:_thin]">
+                <div className="inline-flex lg:space-x-10 space-x-2 w-full flex-row gap-y-4 overflow-y-auto overflow-x-hidden p-3 [scrollbar-width:_thin]">
                     {newMenus.map((newMenu) => (
-                        <div
+                        <Link
                             key={newMenu.title}
+                            to={newMenu.path}
                             className={cn("sidebar-group-title", collapsed && "md:items-center hidden lg:block")}
                         >
-                            <p className={cn("sidebar-group-title", collapsed && "md:w-[45px]", "w-full cursor-pointer text-center p-2")}>{newMenu.title}</p>
-                        </div>
+                            <p className={cn("sidebar-group-title-v2", collapsed && "md:w-[45px]", "w-full cursor-pointer text-center p-2")}>{newMenu.title}</p>
+                        </Link>
                     ))}
                 </div>
             </div>
