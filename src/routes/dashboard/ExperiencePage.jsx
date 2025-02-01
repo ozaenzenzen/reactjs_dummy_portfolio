@@ -4,7 +4,7 @@ import { EXPERIENCES } from "../../constants/experience";
 
 const ExperiencePage = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div className="border-neutral-900 pb-4">
             {/* Title Section */}
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}
