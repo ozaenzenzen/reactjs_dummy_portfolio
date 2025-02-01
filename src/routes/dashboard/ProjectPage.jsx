@@ -139,7 +139,7 @@ const ProjectPage = () => {
                 Project Page
             </motion.h2>
             <div className="flex flex-wrap">
-                <div className="mt-8 grid w-full grid-cols-1 items-start justify-center gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                <div className="mt-8 grid w-full grid-cols-1 items-start justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {listItemPricingData.map((element) => (
                         <motion.div
                             whileInView={{ opacity: 1, y: 0 }}
