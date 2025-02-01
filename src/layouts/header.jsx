@@ -15,6 +15,8 @@ const Header = ({ collapsed, setCollapsed }) => {
 
     return (
         <header className="relative z-10 flex h-[60px] items-center justify-between bg-white px-4 shadow-md transition-colors dark:bg-slate-900">
+
+            {/* Logo Fauzan Lab */}
             <div className="flex items-center gap-x-3">
                 <div className="flex gap-x-3 p-3">
                     <img
@@ -49,6 +51,8 @@ const Header = ({ collapsed, setCollapsed }) => {
                     />
                 </div> */}
             </div>
+
+            {/* Navigation Menu */}
             <div className="flex items-center gap-x-3">
                 <div className="inline-flex lg:space-x-10 space-x-2 w-full flex-row gap-y-4 overflow-y-auto overflow-x-hidden p-3 [scrollbar-width:_thin]">
                     {newMenus.map((newMenu) => (
@@ -62,6 +66,8 @@ const Header = ({ collapsed, setCollapsed }) => {
                     ))}
                 </div>
             </div>
+
+            {/* Button Dark Light */}
             <div className="flex items-center gap-x-3">
                 <button
                     className="btn-ghost size-10"
@@ -78,7 +84,7 @@ const Header = ({ collapsed, setCollapsed }) => {
                         className="hidden dark:block"
                     />
                 </button>
-                <Popover className="relative">
+                {/* <Popover className="relative">
                     {({ open }) => (
                         <>
                             <Popover.Button className={cn(open && "bg-slate-100 dark:bg-blue-950", "btn-ghost")}>
@@ -102,11 +108,11 @@ const Header = ({ collapsed, setCollapsed }) => {
                             </Transition>
                         </>
                     )}
-                </Popover>
+                </Popover> */}
                 {/* <button className="btn-ghost size-10">
                     <Bell size={20} />
                 </button> */}
-                <Menu
+                {/* <Menu
                     as="div"
                     className="relative"
                 >
@@ -173,7 +179,7 @@ const Header = ({ collapsed, setCollapsed }) => {
                             </Menu.Item>
                         </Menu.Items>
                     </Transition>
-                </Menu>
+                </Menu> */}
             </div>
         </header>
     );
