@@ -5,6 +5,7 @@ import PricingItemComponent from "./component/PricingItemComponent";
 import { HiBadgeCheck } from "react-icons/hi";
 import data from "@/constants/project_data.json";
 import ProjectItemComponent from "./component/ProjectItemComponent";
+import ProjectItemComponentV2 from "./component/ProjectItemComponentV2";
 
 const listItemPricingData = [
     {
@@ -148,7 +149,13 @@ const ProjectPage = () => {
                             initial={{ opacity: 0, y: 100 }}
                             transition={{ duration: 1.5 }}
                         >
-                           
+                            {/* <ProjectItemComponentV2
+                                key={element.id}
+                                name={element.title}
+                                image={element.foto[0]}
+                                desc={element.desc}
+                            /> */}
+
                             <ProjectItemComponent
                                 key={element.id}
                                 name={element.title}

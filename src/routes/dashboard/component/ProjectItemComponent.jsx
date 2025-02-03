@@ -3,14 +3,14 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { HiBadgeCheck } from "react-icons/hi";
 import { IoMdArrowDroprightCircle } from "react-icons/io";
 import imageTest from "/assets/content/project/post1/post1-foto(1).png";
-import PricingItemComponentV2 from "./PricingItemComponentV2";
+import PricingItemComponentV2 from "./ProjectItemComponentV2";
 
 const ProjectItemComponent = ({ name, image, desc }) => {
     return (
         <div
             data-aos="zoom-in"
             data-aos-delay="600"
-            className="flex w-full flex-col items-center justify-center gap-6 overflow-hidden rounded-lg border-2 border-gray-700"
+            className="flex h-[550px] w-full cursor-pointer flex-col items-center justify-start gap-6 overflow-hidden rounded-lg border-2 border-gray-700 hover:border-slate-500 hover:bg-slate-200 dark:hover:border-slate-500 dark:hover:bg-slate-900"
         >
             <div className="max-h-44 overflow-hidden">
                 <img
@@ -51,12 +51,12 @@ const ProjectItemComponent = ({ name, image, desc }) => {
                         of growing indefinitely.
                     </p>
                 </div> */}
-                <button className="hover:bg-themered hover:border-themered font-poppins mt-5 flex items-center justify-center gap-2 rounded-lg border-2 border-slate-300 px-8 py-2 text-[15px] font-semibold text-white dark:border-slate-700">
+                {/* <button className="hover:bg-themered hover:border-themered font-poppins mt-5 flex items-center justify-center gap-2 rounded-lg border-2 border-slate-300 px-8 py-2 text-[15px] font-semibold text-white dark:border-slate-700">
                     <p className="description">See More</p>
                     <span>
                         <FaArrowRightLong className="description" />
                     </span>{" "}
-                </button>
+                </button> */}
             </div>
         </div>
     );
