@@ -1,0 +1,10 @@
+This is my app project using flutter framework that use firestore database. Actually, this is my another version of noteapp application. I made it using different tech resource. I've made noteapp application using provider state management and I store the data only to variables and it is temporary. 
+
+To use this app, I've to login to google account, because this app is made based on google's resource. After login, I can see the home page filled with the notes I've made. There's floating action button if I want to make new notes. To update the note, I just tap which note I want to edit, change the data, and save it. To delete it, I can tap on delete button.
+
+In this project, I used cubit state management to handle the states. I think cubit is more flexible and lighter than bloc state management and suitable for mini-scale of applications like this. I could handled the state after login, handled state after I add new note, handled state after I delete the note, and handled state after I updated the note. 
+
+To store every note I've made, I used Cloud Firestore database. Of course, I must have a Google Account. Once again, Firestore have characteristic like cubit. I can legally say Firestore is more flexible, easier to scale and lighter than Firebase Realtime database. There is no tables or rows in Firestore. Firestore is a NoSql database, so I have to store the data as document and collection in Firestore. To handle route of app, I used GetX. GetX package is fast, stable, and I didn't have to write long like navigator of context and then push or pop like that. I just can write Get.to, Get.off, Get.back. It's simple.
+
+Yup, I think that's all from me. See you on another project.
+#flutter #framework

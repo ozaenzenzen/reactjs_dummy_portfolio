@@ -1,0 +1,153 @@
+class FAMImages {
+  FAMImages._();
+  static final FAMImages instance = FAMImages._();
+
+  static const String fauzan_avatar = "assets/images/IMG_0533.jpg";
+  static const String fauzan_avatar2 = "assets/images/Cropped Background Fauzan.png";
+  static const String fauzan_avatar3 = "assets/images/ozan.jpg";
+
+  static const String flutter_image = "https://cdn.iconscout.com/icon/free/png-512/flutter-2752187-2285004.png";
+
+  // project content
+  static const String post1_foto1 = "assets/content/project/post1/post1-foto(1).png";
+  static const String post2_foto1 = "assets/content/project/post2/post2-foto(1).png";
+  static const String post2_foto2 = "assets/content/project/post2/post2-foto(2).png";
+  static const String post2_foto3 = "assets/content/project/post2/post2-foto(3).png";
+  static const String post2_foto4 = "assets/content/project/post2/post2-foto(4).JPG";
+  static const String post2_foto5 = "assets/content/project/post2/post2-foto(5).JPG";
+  static const String post3_foto1 = "assets/content/project/post3/post3-foto(1).png";
+  static const String post3_foto2 = "assets/content/project/post3/post3-foto(2).png";
+  static const String post3_foto3 = "assets/content/project/post3/post3-foto(3).png";
+  static const String post3_foto4 = "assets/content/project/post3/post3-foto(4).png";
+  static const String post4_foto1 = "assets/content/project/post4/post4-foto(1).png";
+  static const String post4_foto2 = "assets/content/project/post4/post4-foto(2).png";
+  static const String post4_foto3 = "assets/content/project/post4/post4-foto(3).png";
+  static const String post5_foto1 = "assets/content/project/post5/post5-foto(1).png";
+  static const String post5_foto2 = "assets/content/project/post5/post5-foto(2).png";
+  static const String post6_foto1 = "assets/content/project/post6/post6-foto(1).png";
+  static const String post6_foto2 = "assets/content/project/post6/post6-foto(2).png";
+  static const String post6_foto3 = "assets/content/project/post6/post6-foto(3).png";
+  static const String post6_foto4 = "assets/content/project/post6/post6-foto(4).png";
+  static const String post6_foto5 = "assets/content/project/post6/post6-foto(5).png";
+  static const String post6_foto6 = "assets/content/project/post6/post6-foto(6).png";
+  static const String post7_foto1 = "assets/content/project/post7/post7-foto(1).png";
+  static const String post7_foto2 = "assets/content/project/post7/post7-foto(2).png";
+  static const String post8_foto1 = "assets/content/project/post8/post8-foto(1).png";
+  static const String post8_foto2 = "assets/content/project/post8/post8-foto(2).png";
+  static const String post9_foto1 = "assets/content/project/post9/post9-foto(1).png";
+  static const String post9_foto2 = "assets/content/project/post9/post9-foto(2).png";
+  static const String post9_foto3 = "assets/content/project/post9/post9-foto(3).png";
+  static const String post9_foto4 = "assets/content/project/post9/post9-foto(4).png";
+  static const String post9_foto5 = "assets/content/project/post9/post9-foto(5).png";
+  static const String post9_foto6 = "assets/content/project/post9/post9-foto(6).png";
+  static const String post9_foto7 = "assets/content/project/post9/post9-foto(7).png";
+  static const String post10_foto1 = "assets/content/project/post10/post10-foto(1).jpg";
+  static const String post10_foto2 = "assets/content/project/post10/post10-foto(2).jpg";
+  static const String post10_foto3 = "assets/content/project/post10/post10-foto(3).jpg";
+  static const String post10_foto4 = "assets/content/project/post10/post10-foto(4).jpg";
+  static const String post10_foto5 = "assets/content/project/post10/post10-foto(5).jpg";
+  static const String post10_foto6 = "assets/content/project/post10/post10-foto(6).jpg";
+  static const String post10_foto7 = "assets/content/project/post10/post10-foto(7).jpg";
+  static const String post10_foto8 = "assets/content/project/post10/post10-foto(8).jpg";
+  static const String post10_foto9 = "assets/content/project/post10/post10-foto(9).jpg";
+  static const String post10_foto10 = "assets/content/project/post10/post10-foto(10).jpg";
+  static const String post10_foto11 = "assets/content/project/post10/post10-foto(11).jpg";
+  static const String post10_foto12 = "assets/content/project/post10/post10-foto(12).jpg";
+  static const String post11_foto1 = "assets/content/project/post11/post11-foto(1).png";
+  static const String post11_foto2 = "assets/content/project/post11/post11-foto(2).png";
+  static const String post11_foto3 = "assets/content/project/post11/post11-foto(3).png";
+  static const String post11_foto4 = "assets/content/project/post11/post11-foto(4).png";
+  static const String post12_foto1 = "assets/content/project/post12/post12-foto(1).png";
+  static const String post12_foto2 = "assets/content/project/post12/post12-foto(2).png";
+  static const String post12_foto3 = "assets/content/project/post12/post12-foto(3).png";
+  static const String post12_foto4 = "assets/content/project/post12/post12-foto(4).png";
+  static const String post12_foto5 = "assets/content/project/post12/post12-foto(5).png";
+  static const String post13_foto1 = "assets/content/project/post13/post13-foto(1).png";
+  static const String post13_foto2 = "assets/content/project/post13/post13-foto(2).png";
+  static const String post13_foto3 = "assets/content/project/post13/post13-foto(3).png";
+  static const String post13_foto4 = "assets/content/project/post13/post13-foto(4).png";
+  static const String post13_foto5 = "assets/content/project/post13/post13-foto(5).png";
+  static const String post13_foto6 = "assets/content/project/post13/post13-foto(6).png";
+  static const String post13_foto7 = "assets/content/project/post13/post13-foto(7).png";
+  static const String post14_foto1 = "assets/content/project/post14/post14-foto(1).png";
+  static const String post14_foto2 = "assets/content/project/post14/post14-foto(2).png";
+  static const String post14_foto3 = "assets/content/project/post14/post14-foto(3).png";
+  static const String post14_foto4 = "assets/content/project/post14/post14-foto(4).png";
+  static const String post14_foto5 = "assets/content/project/post14/post14-foto(5).png";
+  static const String post15_foto1 = "assets/content/project/post15/post15-foto(1).png";
+  static const String post15_foto2 = "assets/content/project/post15/post15-foto(2).png";
+  static const String post15_foto3 = "assets/content/project/post15/post15-foto(3).png";
+  static const String post15_foto4 = "assets/content/project/post15/post15-foto(4).png";
+  static const String post15_foto5 = "assets/content/project/post15/post15-foto(5).png";
+  static const String post15_foto6 = "assets/content/project/post15/post15-foto(6).png";
+  static const String post15_foto7 = "assets/content/project/post15/post15-foto(7).png";
+  static const String post16_foto1 = "assets/content/project/post16/post16-foto(1).png";
+  static const String post16_foto2 = "assets/content/project/post16/post16-foto(2).png";
+  static const String post16_foto3 = "assets/content/project/post16/post16-foto(3).png";
+  static const String post16_foto4 = "assets/content/project/post16/post16-foto(4).png";
+  static const String post16_foto5 = "assets/content/project/post16/post16-foto(5).png";
+  static const String post16_foto6 = "assets/content/project/post16/post16-foto(6).png";
+  static const String post16_foto7 = "assets/content/project/post16/post16-foto(7).png";
+  static const String post16_foto8 = "assets/content/project/post16/post16-foto(8).png";
+  static const String post16_foto9 = "assets/content/project/post16/post16-foto(9).png";
+  static const String post16_foto10 = "assets/content/project/post16/post16-foto(10).png";
+  static const String post16_foto11 = "assets/content/project/post16/post16-foto(11).png";
+  static const String post16_foto12 = "assets/content/project/post16/post16-foto(12).png";
+  static const String post16_foto13 = "assets/content/project/post16/post16-foto(13).png";
+  static const String post16_foto14 = "assets/content/project/post16/post16-foto(14).png";
+  static const String post17_foto1 = "assets/content/project/post17/post17-foto(1).jpeg";
+  static const String post17_foto2 = "assets/content/project/post17/post17-foto(2).jpeg";
+  static const String post17_foto3 = "assets/content/project/post17/post17-foto(3).jpeg";
+  static const String post17_foto4 = "assets/content/project/post17/post17-foto(4).jpeg";
+  static const String post17_foto5 = "assets/content/project/post17/post17-foto(5).jpeg";
+  static const String post17_foto6 = "assets/content/project/post17/post17-foto(6).jpeg";
+  static const String post17_foto7 = "assets/content/project/post17/post17-foto(7).jpeg";
+  static const String post17_foto8 = "assets/content/project/post17/post17-foto(8).jpeg";
+  static const String post18_foto1 = "assets/content/project/post18/post18-foto(1).png";
+  static const String post18_foto2 = "assets/content/project/post18/post18-foto(2).png";
+  static const String post18_foto3 = "assets/content/project/post18/post18-foto(3).png";
+  static const String post18_foto4 = "assets/content/project/post18/post18-foto(4).png";
+  static const String post18_foto5 = "assets/content/project/post18/post18-foto(5).png";
+  static const String post18_foto6 = "assets/content/project/post18/post18-foto(6).png";
+  static const String post18_foto7 = "assets/content/project/post18/post18-foto(7).png";
+  static const String post18_foto8 = "assets/content/project/post18/post18-foto(8).png";
+  static const String post18_foto9 = "assets/content/project/post18/post18-foto(9).png";
+  static const String post18_foto10 = "assets/content/project/post18/post18-foto(10).png";
+  static const String post19_foto1 = "assets/content/project/post19/post19-foto(1).png";
+  static const String post22_foto1 = "assets/content/project/post22/post22-foto(1).png";
+
+  static const List<String> allPhoto = [
+    FAMImages.post1_foto1,
+    FAMImages.post2_foto1,
+    FAMImages.post2_foto2,
+    FAMImages.post2_foto3,
+    FAMImages.post2_foto4,
+    FAMImages.post2_foto5,
+    FAMImages.post3_foto1,
+    FAMImages.post3_foto2,
+    FAMImages.post3_foto3,
+    FAMImages.post3_foto4,
+    FAMImages.post4_foto1,
+    FAMImages.post4_foto2,
+    FAMImages.post4_foto3,
+    FAMImages.post5_foto1,
+    FAMImages.post5_foto2,
+    FAMImages.post6_foto1,
+    FAMImages.post6_foto2,
+    FAMImages.post6_foto3,
+    FAMImages.post6_foto4,
+    FAMImages.post6_foto5,
+    FAMImages.post6_foto6,
+    FAMImages.post7_foto1,
+    FAMImages.post7_foto2,
+    FAMImages.post8_foto1,
+    FAMImages.post8_foto2,
+    FAMImages.post9_foto1,
+    FAMImages.post9_foto2,
+    FAMImages.post9_foto3,
+    FAMImages.post9_foto4,
+    FAMImages.post9_foto5,
+    FAMImages.post9_foto6,
+    FAMImages.post9_foto7,
+  ];
+}

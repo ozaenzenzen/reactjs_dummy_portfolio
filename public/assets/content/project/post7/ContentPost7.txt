@@ -1,0 +1,6 @@
+This project is an experimental project to build panigation from the list of data builded in listview. I used bloc state management to control flow data from REST API and put them in home state.
+
+At the start, I always build the model of the data. I have list of data around 100 row and I want to load it to screen as a little part, like only 10 row. I manipulated the parameter of url, and fill it with range of many lines I want. I got the data from REST API and then I controlled event-state with bloc and separating to two state. In brief, If I wanted to fetch another data, I used scroll controller to set new event and it will trigger the new state of new list from bloc.
+
+As always, I will tell depedencies package do I use. I used dio as a replacement of http, bloc & flutter_bloc as a state management, and google fonts.
+#flutter #framwork

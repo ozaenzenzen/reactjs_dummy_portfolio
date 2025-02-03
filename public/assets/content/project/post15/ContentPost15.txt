@@ -1,0 +1,13 @@
+This is an App Project of Fauzan Akmal Mahdi. 
+
+This application is the submission project of Dicoding's course Belajar Pengembangan Aplikasi Flutter. This application has simple purpose which is to implement the general goal of mobile app development.
+
+The general purpose of mobile app development is to develop the user interface, user interaction, build client-side logic and also consuming API from the backend.
+
+Dicoding course gave me the basic rule of this project. I just have to show the list of restaurant, and navigate to the detail of restaurant. But the data of restaurant is available in dicoding API. So I have to fetch and show to the app screen.
+
+I developed the app using cupertino style, which I rarely used to style. I'm very excited because the cupertino style almost similar with iOS style. And this made me so curious. And I used bloc state management of this app because I think this helps me to improve my skills to control state management.
+
+The external packages I used are screenutil, dio, flutter bloc, getx, and dartz.
+
+Thank you.

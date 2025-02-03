@@ -3,6 +3,8 @@ import React from "react";
 import aboutImg from "@/assets/profile-image2.jpg";
 import PricingItemComponent from "./component/PricingItemComponent";
 import { HiBadgeCheck } from "react-icons/hi";
+import data from "@/constants/project_data.json";
+import ProjectItemComponent from "./component/ProjectItemComponent";
 
 const listItemPricingData = [
     {
@@ -140,7 +142,22 @@ const ProjectPage = () => {
             </motion.h2>
             <div className="flex flex-wrap">
                 <div className="mt-8 grid w-full grid-cols-1 items-start justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                    {listItemPricingData.map((element) => (
+                    {data.map((element) => (
+                        <motion.div
+                            whileInView={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0, y: 100 }}
+                            transition={{ duration: 1.5 }}
+                        >
+                           
+                            <ProjectItemComponent
+                                key={element.id}
+                                name={element.title}
+                                image={element.foto[0]}
+                                desc={element.desc}
+                            />
+                        </motion.div>
+                    ))}
+                    {/* {listItemPricingData.map((element) => (
                         <motion.div
                             whileInView={{ opacity: 1, y: 0 }}
                             initial={{ opacity: 0, y: 100 }}
@@ -153,7 +170,7 @@ const ProjectPage = () => {
                                 listItems={element.listItems}
                             />
                         </motion.div>
-                    ))}
+                    ))} */}
                 </div>
             </div>
         </div>

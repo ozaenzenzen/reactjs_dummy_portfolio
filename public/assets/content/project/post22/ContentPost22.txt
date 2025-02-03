@@ -1,0 +1,16 @@
+This is machie learning project of Fauzan Akmal Mahdi.
+
+I've developed deep learning method using Convolutinal Neural Network algorithms to identify Taekwondo movements based on image.
+
+In Taekwondo, there is a demonstration of a series of movements called poomsae. Currently, judging in poomsae competitions is still done by humans. There is a Deep Learning method that can be used to make the image learning function more efficient and effective with the Convolutional Neural Network algorithm. 
+The Convolutional Neural Network algorithm utilizes the convolution function to process input data in the form of images to be processed by the model so that classification can be done. 
+
+This study uses image data in the form of 6 types of Taekwondo martial arts movements. 
+
+This study compares the effect of the number of convolution layers, the number of hidden layers, and the use of dropout layers on increasing the accuracy of the test data. 
+The results of the highest test data accuracy were obtained in the scenario of using 6 convolution layers, 3 hidden layers, and without a dropout layer of 61.28%. 
+
+By using the Tensorflow library to create a convolutional network model, it is easy to integrate the model into an Android-based mobile application. 
+Therefore, the researcher will implement the advantages of the Convolutional Neural Network algorithm to classify movements in Taekwondo martial arts through input data in the form of images into an Android-based mobile application.
+
+I've published this research on IEEE Explore referring to this link https://ieeexplore.ieee.org/abstract/document/10017502

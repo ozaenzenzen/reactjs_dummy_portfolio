@@ -1,0 +1,10 @@
+Build Mobile Application Frontend 4.
+
+Hello, it's me again, Fauzan. I made a personal project again using Flutter Framework. This project is a mobile frontend of Menu Application based Region in Indonesia. For further, this application will have a feature to show a recipe, history, and fun fact of the food. With the friendly and bright User Interface, this is app is fun to use.
+
+At the simple stage, this project container widget, row, and column to arrange to view, from appbar to the gridview. This is interesting. Because flutter provide the feature to build grid of menu. In detail, you can use GridView with builder. Yeah, this feature helps me to build this project faster because I just have to build the statless/stateful widget of one grid and the builder will build it in repeated.
+
+Multiprovider helps me control flow data between state. I just have to prepare the model and bunch of the data from model (I put it in provider folder) stored in list and builded in class. Every class of the data have to extended with ChangeNotifier. There's so many ways to send data between state. I can pass the data at the initial of state with provider or I send it between class using builder or I send using Consumer.
+
+Yeah that's all from me. Thank you for reading my post.
+#flutter #framework

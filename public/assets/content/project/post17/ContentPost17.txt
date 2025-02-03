@@ -1,0 +1,13 @@
+This is a mobile application project of Fauzan Akmal Mahdi. 
+
+The purpose of this project is to finish my thesis (bachelor's degree) entitled Implementation of Convolutional Neural Network Algorithm for Android-Based Classification of Taekwondo Martial Arts.
+The application has feature to identify taekwondo movement by image which can be taken using camera or from gallery. 
+
+Before I develop the app, I develop the machine learning model using Convolutinal Neural Network model using python. I have implemented tensorflow into this application so it can run machine learning models.
+With tensorflow lite the model can be used inside mobile application in offline mode (without active network). 
+
+From the tech side, there are some pacakges I've used include:
+- tensorflow lite to run machine learning models inside mobile app
+- using flutter bloc as state management
+- using get storage as local storage
+- using firebase to implement remote config because I developed the app in limited scope of users and research purpose.

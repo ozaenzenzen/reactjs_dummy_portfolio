@@ -1,0 +1,12 @@
+Build Mobile Application Frontend 3.
+
+Welcome back again with Fauzan. This is personal project. Not for sale. I made a mobile app of notes to helps user to write in phone. I built this notes app with just simple view. I built this application to help myself to write something whenever I forget to bring paper and pen. This project imporves my programming skills.
+
+As usual, I used flutter framework to build this mobile app. From the simple stage, I used container, row, and column to arrange the widget. At the Home Page, I used Container widget containing with note titles and description to show the highlight of each note. If I want to add new note, I just pressed the add button (+) at the bottom right of view. And then, new page will shown and I can start write my note. I can filled it with title and description. There will be 2 button at the bottom to Delete and Save the note. If I tried to delete the note before I saved it there will be shown alert dialog because to inform that the note haven't saved yet. Oh ya, and again, I used cupertino library to implement Cupertino Icon and Cupertino Page Transition. I just curious how cool is it when I used cupertino widget. Hehe.
+
+The next stage, which is logic part. I built the Note class with id, title, and description. And, every note saved will be filled to List. How did I bring the data to other page every time I move from page to page? I used one of Flutter's state management which is Provider State. There will be some main part of this state management. Those are Consumer, Provider, Change Notifier, and Change Notifier Provider. 
+
+Change Notifier Provider will act in the root of the state. When I want to bring data, I use the Provider to call the method and method will alert the Change Notifier Provider there's change to intended page. The method that called by Provider have to saved in the other class which extends Change Notifier abstract class. Because the Change Notifier provides change to its listeners which is from Provider. Consumer works to call Provider for new Widget and implement it to the builder.
+
+Wow, looks complex right? Hahaha, just give me your thoughts guys. Thank you for reading my post.
+#flutter #framework

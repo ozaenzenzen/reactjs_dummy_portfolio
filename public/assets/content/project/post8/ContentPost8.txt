@@ -1,0 +1,5 @@
+FAM Password generator is my personal project to generate password by randomize every character of the input.
+The intersting part of this development project is I just have to used method shuffle from class List in dart to randomize each character from the line input.
+
+I plan to continue the development of this project app.
+#flutter #framework

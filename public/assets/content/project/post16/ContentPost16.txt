@@ -1,0 +1,19 @@
+This is a mobile application project is done by Fauzan Akmal Mahdi. 
+
+The purpose of this application is to connect volunteer and event owner or organization. Based on it's name "Relone" came from "Relawan" or "Volunteers". 
+
+There are 3 roles of user of the app. Volunteer, Organization, and Admin. 
+Each role have different scope ability. Volunteer can only sign up & sign in an account and join available events. Organization can create event, accept & reject volunteers. And Admin can approve and reject event submitted.
+This app have notification features.
+
+From the tech side, this mobile app is developed using flutter 3.7.6. Implement clean design pattern and clean architecture.
+Some of the packages used include:
+- flutter_inappwebview is used to open outside link inside the app
+- firebase, implement remote config
+- get_storage as local storage of the app
+- bloc as state management
+- dio as HTTP client for Dart/Flutter,
+- image_picker to get image from local phone
+
+
+

@@ -1,0 +1,8 @@
+This project called FAM Logbook because I used it to write log in mobile app. If you see from the screenshot, I just made the log based on a typical cart. Yeah I plan to continue development of this app so I can write any other type of log such as only text, or other type.
+
+Tech resource I used in this project are MySQL Database, Dio depedencies, Cubit (but the thing is availaible include with bloc package), dartz, get, get_storage, screenutil.
+
+Plot how this app works: I build 2 role of account, admin and member. I separted it by type in database table, there's available 2 role admin and member. How do I fetch data from mysql? I used php file to get data, create, delete, and update. I called them as http client from flutter so I used Dio depedencies. Of course, I havev build the model of the data so I fetch and convert it to model inside codebase. The state management I used is cubit. At first, I didn't use cubit, I just used navigator. I combined cubit and get navigation manager to give me best experience of development. I set up the size of widget and text using screenutil. Screenutil helped to adapting widget size to the different screen size.
+
+The great part of this development is I used get storage to save account session in local storage. Wow, this is interesting for me because basically I can understand the basic way of the other big app like facebook, google account, twitter, instagram, and many more to save account session in local.
+#flutter #framework

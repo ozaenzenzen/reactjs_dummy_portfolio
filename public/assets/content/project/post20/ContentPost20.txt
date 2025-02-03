@@ -1,0 +1,24 @@
+This is backend project of Fauzan Akmal Mahdi.
+
+The project developed using Golang language, database I've used is MySql Phpmyadmin, and the library I've used like gin for http web framework and gorm to handle relational mapping service.
+There are 3 roles of user of the app. Volunteer, Organization, and Admin. 
+Each role have different scope ability. Volunteer can only sign up & sign in an account and join available events. Organization can create event, accept & reject volunteers. And Admin can approve and reject event submitted.
+This service has notification features.
+
+From the Account models, I've built endpoint service for all role users
+- sign up account 
+- sign in account
+- get user data
+in this service I developed security like jwt token. So all service is secure to security attacks.
+
+From the Event models, I've built endpoint service 
+- get all event (for all roles)
+- create event (for organization role)
+- join event (for volunteer role)
+- submit volunteer (for organization role)
+- submit event (for admin role to approve or reject event added)
+- get list volunteers (for admin and organization roles)
+every action for create event, join event, submit volunteer, and submit event will add notification to the table notification. But I don't add push notification service on this case, only add data to the table notification.
+
+From the Notification models, I've built endpoint service  
+- get notification (for all roles)

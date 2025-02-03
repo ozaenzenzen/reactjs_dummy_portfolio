@@ -1,0 +1,6 @@
+This is my personal project. FAM News Application is an application that show list of news in Indonesia. There are some packages I used such as cupertino icons, get x, and http. In this project, I tried to implement free RESTful API from News API. 
+
+This app is one of my personal project that implements http package of flutter. I used http packages to get the data from News API. First step to get data from API, I had to add http package in pubspec and then import in the dart file. Next, I have to define the url data. Then, I have to build code to get data using http package. I had to build variable to keep response body from server API. At this step, there are so many approaches to convert response body from API. But, the legit thing I had to do is decode json, because the data from API is built with JSON format. 
+
+The other package I used is get x. Get x is state manager, navigation manager, and depedencies manager. This package is so easy to implement, stable, and fast. I used get to navigate between state. One of the interesting thing about get is I can define transition style of navigation state so easy and fast.
+#flutter #framework

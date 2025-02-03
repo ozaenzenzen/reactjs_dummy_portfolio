@@ -1,0 +1,7 @@
+This is flutter package project of Fauzan Akmal Mahdi.
+
+I developed this package is to help people build web using flutter that imitated multipage application. Because flutter only support flutter web as single page application.
+
+The web that developed by this package can have different route and different page. And so developer can focus improve their code to screens and performance.
+
+I have published this package to pub.dev listed on this link https://pub.dev/packages/responsive_mpa_web

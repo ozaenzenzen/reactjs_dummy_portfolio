@@ -1,0 +1,22 @@
+This is backend project of Fauzan Akmal Mahdi.
+
+The project developed using Golang language, database used is MySql Phpmyadmin, and the library I've used like gin for http web framework and gorm to handle relational mapping service.
+
+This service has notification features.
+
+From the Account models, I've built endpoint service for all role users
+- sign up account 
+- sign in account
+- get user data
+in this service I haven't developed security like jwt token. So all service all vulnerable to security attacks.
+
+From the Vehicle models, I've built endpoint service 
+- get all vehicle
+- create vehicle
+- update vehilce data
+- create log vehicle 
+- get log vehicle
+every action for create vehicle, update vehicle data, create log vehicle, will add notification to the table notification. But I don't add push notification service on this case, only add data to the table notification.
+
+From the Notification models, I've built endpoint service  
+- get notification 

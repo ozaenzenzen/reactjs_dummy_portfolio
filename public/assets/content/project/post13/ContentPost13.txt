@@ -1,0 +1,8 @@
+This is an App Project of Fauzan Akmal Mahdi. 
+
+I build an app to write a log of expense of personal finance. This is very helpful app because I just have to open the app and add the log. I just have to input the title, description, and the date. If I forgot something about my finance, I can open the app and look at the description. 
+
+There are packages I used: I developed this app using SQLite to store the data. SQLite is very light and fast in access. And then, I used screenutil to handle the size of the app based on screen size. For the navigation I used Getx as usual. Getx is very helpful package and easy to use. And I used google fonts as a font of the app. I think using google fonts package gives me an experience to flexibility of using every font style.
+
+Just like that. Simple.
+Thank you.

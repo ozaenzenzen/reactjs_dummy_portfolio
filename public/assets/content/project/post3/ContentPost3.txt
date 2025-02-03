@@ -1,0 +1,12 @@
+Build Mobile Application Frontend 3.
+
+Welcome back again with Fauzan. This is personal project. Not for sale. I made a mobile app of notes to helps user to write in phone. I built this notes app with just simple view. This app help myself to write something whenever I forget to bring paper and pen.
+
+As usual, I used flutter framework to build this mobile app. From the simple stage, I used container, row, and column to arrange the widget.
+
+The next stage, I built the Note class with id, title, and description. And, every note saved will be filled to List. I used one of Flutter's state management which is Provider State. There are some parts of this state management. Those are Consumer, Provider, Change Notifier, and Change Notifier Provider.
+
+Change Notifier Provider will act in the root of the state. When I want to bring data, I used the Provider to call the method and method will alert the Change Notifier Provider there's data to the intended page. The method that called by Provider have to saved in the other class which extends Change Notifier class. Because the Change Notifier provides change to its listeners which is from Provider. Consumer works to call Provider for new Widget and implement it to the builder.
+
+Thank you for reading my post.
+#flutter #framework

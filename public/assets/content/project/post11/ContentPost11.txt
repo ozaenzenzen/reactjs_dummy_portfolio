@@ -1,0 +1,6 @@
+Build Mobile Application Frontend 5.
+
+Slicing UI from Fauzan Akmal Mahdi.
+This is my other project of mobile app frontend UI or slicing UI only. This is an marketplace app of accessories music and phone.
+I have 4 pages of this app but I've develop completely in first page, but I'll continue the development of this project.
+Thank you.

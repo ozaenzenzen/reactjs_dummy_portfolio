@@ -1,0 +1,15 @@
+This is fullstack project of Fauzan Akmal Mahdi. 
+
+I developed frontend mobile using flutter and backend using golang.
+
+The purpose of this app is to manage vehicle maintenance logs and for further I will submit the app to Google Play Store.
+User can control their vehicle maintenance logs, see expenses by log and chart, get notification for next maintenance by expected odo.
+
+Some pacakges I've used include
+- syncfusion_flutter_charts to display maintenance data logs and expense of users vehicles
+- connectivity plus is to handle connectivity context of the users device
+- dio as http client
+- bloc as state management
+- flutter_screenutil to set widget size by device size
+- hive as local storage
+- package_info_plus to get device info

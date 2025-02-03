@@ -1,0 +1,363 @@
+[
+    {
+        "id": "1",
+        "title": "UI Project - The Meditation App",
+        "desc": "Build Mobile Application Frontend 1.\nThis is a personal project. Not for sale. I made a mobile app frontend of meditation app. I used Flutter framework. Let's see what's interesting bout this framework. \nThere are simple widget that I used such as container, row, and column. At the next level I try to costumize the widget. The \"Daily Meditations\" menu was using BoxDecoration widget. I need this widget to give an image to this container and also I want to give the radius of the corner of this container. Menu \"New Music\" is a carousel. I used ListView widget to build this carousel menu. How can I change the axis scroll of the that widget? It's simple, I just have to change the scroll direction. Build some widget into the children of the ListView widget. \n Yup, that's all from me. See you on the next frontend design.",
+        "foto": [
+            "assets/content/project/post1/post1-foto(1).png"
+        ],
+        "tags": [
+            "UI",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "UI Project - Presence App",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post2/post2-foto(1).png",
+            "assets/content/project/post2/post2-foto(2).png",
+            "assets/content/project/post2/post2-foto(3).png",
+            "assets/content/project/post2/post2-foto(4).JPG",
+            "assets/content/project/post2/post2-foto(5).JPG"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "App Project - FAM Note App 1",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post3/post3-foto(1).png",
+            "assets/content/project/post3/post3-foto(2).png",
+            "assets/content/project/post3/post3-foto(3).png",
+            "assets/content/project/post3/post3-foto(4).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "UI Project - FAM Menu Makanan App",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post4/post4-foto(1).png",
+            "assets/content/project/post4/post4-foto(2).png",
+            "assets/content/project/post4/post4-foto(3).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "App Project - FAM News using RESTful API",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post5/post5-foto(1).png",
+            "assets/content/project/post5/post5-foto(2).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "App Project - FAM Note App 2 with Firestore",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post6/post6-foto(1).png",
+            "assets/content/project/post6/post6-foto(2).png",
+            "assets/content/project/post6/post6-foto(3).png",
+            "assets/content/project/post6/post6-foto(4).png",
+            "assets/content/project/post6/post6-foto(5).png",
+            "assets/content/project/post6/post6-foto(6).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "UI Project - Infinite Bloc Listview",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post7/post7-foto(1).png",
+            "assets/content/project/post7/post7-foto(2).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "App Project - FAM Password Generator",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post8/post8-foto(1).png",
+            "assets/content/project/post8/post8-foto(2).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "App Project - FAM Logbook (CRUD MySql)",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post9/post9-foto(1).png",
+            "assets/content/project/post9/post9-foto(2).png",
+            "assets/content/project/post9/post9-foto(3).png",
+            "assets/content/project/post9/post9-foto(4).png",
+            "assets/content/project/post9/post9-foto(5).png",
+            "assets/content/project/post9/post9-foto(6).png",
+            "assets/content/project/post9/post9-foto(7).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "App Project - Fauzan's Lab Web Portfolio",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post10/post10-foto(1).jpg",
+            "assets/content/project/post10/post10-foto(2).jpg",
+            "assets/content/project/post10/post10-foto(3).jpg",
+            "assets/content/project/post10/post10-foto(4).jpg",
+            "assets/content/project/post10/post10-foto(5).jpg",
+            "assets/content/project/post10/post10-foto(6).jpg",
+            "assets/content/project/post10/post10-foto(7).jpg",
+            "assets/content/project/post10/post10-foto(8).jpg",
+            "assets/content/project/post10/post10-foto(9).jpg",
+            "assets/content/project/post10/post10-foto(10).jpg",
+            "assets/content/project/post10/post10-foto(11).jpg",
+            "assets/content/project/post10/post10-foto(12).jpg"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "11",
+        "title": "UI Project - Accessories Marketplace",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post11/post11-foto(1).png",
+            "assets/content/project/post11/post11-foto(2).png",
+            "assets/content/project/post11/post11-foto(3).png",
+            "assets/content/project/post11/post11-foto(4).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "12",
+        "title": "UI Project - Payment App",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post12/post12-foto(1).png",
+            "assets/content/project/post12/post12-foto(2).png",
+            "assets/content/project/post12/post12-foto(3).png",
+            "assets/content/project/post12/post12-foto(4).png",
+            "assets/content/project/post12/post12-foto(5).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "13",
+        "title": "App Project - FAM Expense Log",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post13/post13-foto(1).png",
+            "assets/content/project/post13/post13-foto(2).png",
+            "assets/content/project/post13/post13-foto(3).png",
+            "assets/content/project/post13/post13-foto(4).png",
+            "assets/content/project/post13/post13-foto(5).png",
+            "assets/content/project/post13/post13-foto(6).png",
+            "assets/content/project/post13/post13-foto(7).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "14",
+        "title": "App Project - FAM Profile Log CRUD Cloud Firestore",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post14/post14-foto(1).png",
+            "assets/content/project/post14/post14-foto(2).png",
+            "assets/content/project/post14/post14-foto(3).png",
+            "assets/content/project/post14/post14-foto(4).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "15",
+        "title": "App Project - FAM Restaurant App (Dicoding's Course)",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post15/post15-foto(1).png",
+            "assets/content/project/post15/post15-foto(2).png",
+            "assets/content/project/post15/post15-foto(3).png",
+            "assets/content/project/post15/post15-foto(4).png",
+            "assets/content/project/post15/post15-foto(5).png",
+            "assets/content/project/post15/post15-foto(6).png",
+            "assets/content/project/post15/post15-foto(7).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "16",
+        "title": "App Project - Relaone",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post16/post16-foto(1).png",
+            "assets/content/project/post16/post16-foto(2).png",
+            "assets/content/project/post16/post16-foto(3).png",
+            "assets/content/project/post16/post16-foto(4).png",
+            "assets/content/project/post16/post16-foto(5).png",
+            "assets/content/project/post16/post16-foto(6).png",
+            "assets/content/project/post16/post16-foto(7).png",
+            "assets/content/project/post16/post16-foto(8).png",
+            "assets/content/project/post16/post16-foto(9).png",
+            "assets/content/project/post16/post16-foto(10).png",
+            "assets/content/project/post16/post16-foto(11).png",
+            "assets/content/project/post16/post16-foto(12).png",
+            "assets/content/project/post16/post16-foto(13).png",
+            "assets/content/project/post16/post16-foto(14).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "17",
+        "title": "App Project - I-TKD FAM",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post17/post17-foto(1).jpeg",
+            "assets/content/project/post17/post17-foto(2).jpeg",
+            "assets/content/project/post17/post17-foto(3).jpeg",
+            "assets/content/project/post17/post17-foto(4).jpeg",
+            "assets/content/project/post17/post17-foto(5).jpeg",
+            "assets/content/project/post17/post17-foto(6).jpeg",
+            "assets/content/project/post17/post17-foto(7).jpeg",
+            "assets/content/project/post17/post17-foto(8).jpeg"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "18",
+        "title": "App Project - Vehicle Management Logs",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post18/post18-foto(1).png",
+            "assets/content/project/post18/post18-foto(2).png",
+            "assets/content/project/post18/post18-foto(3).png",
+            "assets/content/project/post18/post18-foto(4).png",
+            "assets/content/project/post18/post18-foto(5).png",
+            "assets/content/project/post18/post18-foto(6).png",
+            "assets/content/project/post18/post18-foto(7).png",
+            "assets/content/project/post18/post18-foto(8).png",
+            "assets/content/project/post18/post18-foto(9).png",
+            "assets/content/project/post18/post18-foto(10).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "19",
+        "title": "Flutter Package - Responsive Multipage Application Web",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post19/post19-foto(1).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "20",
+        "title": "Backend - Relaone Backend Service (Golang)",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post15/post15-foto(1).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "21",
+        "title": "Backend - Vehicle Management Logs Backend Service (Golang)",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post18/post18-foto(1).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "22",
+        "title": "Conv Neural Network - Identify Taekwondo Movement",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post22/post22-foto(1).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    },
+    {
+        "id": "23",
+        "title": "LSTM - Stock Prediction",
+        "desc": "Build Mobile Application Frontend 2.\n\nYo, Welcome back with Fauzan. This is personal project. Not for sale. I made a mobile app frontend of online presence / attendance checker of my university. I build the concept \"one tap\" for check in attendance include the academic information system. Yup, it's just still frontend. I used Flutter Framework to develop this mobile app frontend.\n\nLet's see what's interesting of Flutter Framework on this project.\nI used some widget such as Container, Text, Column, and Row. At the next level, I customized the container using Box Decoration, gave it shadow and color. I used InkWell widget. Thus, the widget can response gesture from user like touch or tap. I used Cupertino Icons for this project because I was so curious about it. I think it looks cool when you have style of Apple's in your Android's. Widget Carousel of this project was the quite difficult to build. I used package from flutter named Carousel Slider. This package helps me to build the design. Last but not least, I built category menu using GridView builder. Basically, to use builder you just have to prepare the list of data do you need to build the widget.\nflutter\nframework",
+        "foto": [
+            "assets/content/project/post22/post22-foto(1).png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ]
+    }
+]

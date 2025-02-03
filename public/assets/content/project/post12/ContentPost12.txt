@@ -1,0 +1,6 @@
+Build Mobile Application Frontend 6.
+
+Slicing UI from Fauzan Akmal Mahdi.
+This is my other project of mobile app frontend UI or slicing UI only. This is slicing UI of payment app.
+I have 4 pages of this app but I've develop completely in first page, but I'll continue the development of this project.
+Thank you.

@@ -1,0 +1,7 @@
+Build Mobile Application Frontend 1.
+
+This is a personal project. Not for sale. I made a mobile app frontend of meditation app. I used Flutter framework. Let's see what's interesting bout this framework.
+There are simple widget that I used such as container, row, and column. At the next level I try to costumize the widget. The "Daily Meditations" menu was using BoxDecoration widget. I need this widget to give an image to this container and also I want to give the radius of the corner of this container. Menu "New Music" is a carousel. I used ListView widget to build this carousel menu. How can I change the axis scroll of the that widget? It's simple, I just have to change the scroll direction. Build some widget into the children of the ListView widget.
+
+Yup, that's all from me. See you on the next frontend design.
+#flutter #framework

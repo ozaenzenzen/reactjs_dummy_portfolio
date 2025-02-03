@@ -1,0 +1,12 @@
+This is an App Project of Fauzan Akmal Mahdi. 
+
+This is an log application to add, update, and delete a profile. This application implements cloud firestore to keep the data.
+
+There are some external packages I used to develop this application such as: cloud firestore to store the data. I used screenutil to handle the widget size of the application. For the page navigation I used Get package. Getx is very helpful package and easy to use. And I used google fonts as a font of the app. 
+Flutter google fonts gave flexibility to set and try many font style family available. And I can choose the font I want to implement to the app font style or font famliy.
+
+Also, to control the state management of this app I used flutter bloc state management. The best part of implements state management is when I set bloc consumer on the presentation or screen layers.
+There are some state I have to defined like loading, error, success. And the events like add list, update list, and delete list.
+
+There will be further development to this app such as improving clean architecture and memory management.
+Thank you.

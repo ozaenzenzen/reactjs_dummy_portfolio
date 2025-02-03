@@ -1,0 +1,9 @@
+This is my online portfolio. I made this website using Flutter Framework. 
+
+Unique experience of development website using Flutter Framework is like I was able to control development html, css, and javascript in one single codebase. But, Flutter gave me strange experience to control the route of this website.
+
+Let me tell you something how does Flutter for web works. Flutter uses entire screen as a canvas and creates its own HTML. And the screen is rendered with engine called Skia. So, instead load the single page like native development. FLutter website load all the page of the web like Mobile Application.
+
+I used netlify hosting to deploy this portfolio website. It was easy to use, lighter, and free.
+
+The development of this website is still continuing due to adding more data and improving performance of the website.
