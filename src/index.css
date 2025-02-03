@@ -9,6 +9,10 @@
 }
 
 @layer components {
+    .display-linebreak {
+        white-space: pre-line;
+      }
+      
     .sidebar-group {
         @apply flex w-full flex-col gap-y-2;
     }

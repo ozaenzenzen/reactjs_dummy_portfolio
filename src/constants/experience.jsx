@@ -7,34 +7,41 @@ In 2022, I proudly graduated with a bachelor's degree in Computer Science, speci
 In Taekwondo Martial Arts: Beyond the realm of technology, I immerse myself in the discipline of Taekwondo. As a dedicated practitioner with a black belt, I embrace the ethos of perseverance, respect, and continuous growth. My thesis project exemplifies my dedication to combining my passion for martial arts with my IT skill set to tackle real-world challenges.`;
 
 export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    {
+        year: "Nov 2021 - Present",
+        role: "Mobile Engineer",
+        company: "PT Qoin Digital Indonesia",
+        description: `As a mobile engineer, I am responsible of the development of a company projects mobile application using Flutter Framework. Design and build application for Android & iOS platform, enhance the performance of the application, involved in discussing the development timeline, integration and develop new features, work closely with cross-functional teams to define, design, and ship new features, and continuously discover, evaluate, and implement new technologies to maximize development efficiency.
+            - Optimizing camera feature for the app
+            - Implement MLKit Face Detection for face compare & motion detection
+            - Implement MLKit Text Recognizition for Optical Character Recognition (OCR)
+            - Improvement memory usage of management state (BLoC, GetX, Provider)
+            - Research and develop web3 of mobile app
+            - Implement security layer in mobile app (Signature, SSL Pinning, Encryption, Obfuscation)
+            - Test Driven Development
+            - Implement CI/CD for mobile application (Codemagic)
+    `,
+        technologies: ["Flutter", "Firebase", "MLKit", "Push Notifications", "Sentry", "Amplitude", "Blockchain"],
+    },
+    {
+        year: "2022 - Present",
+        role: "Software Engineer",
+        company: "Freelance Role",
+        description: ``,
+        technologies: [
+            "Mobile App Development (Flutter, React Native, Android Native, iOS Native)",
+            "Frontend Web Development (React JS)",
+            "Backend Development (Golang, Python, Javascript)",
+            "Machine Learning (Python, Pytorch, Tensorflow)",
+        ],
+    },
+    {
+        year: "May 2021 - Aug 2021",
+        role: "Software Engineer (Intern)",
+        company: "PT Deggan Technowave",
+        description: `At Deggan, supportive culture is a good way to improve the work. Deggan is a company that provides service to support people digitizing to achieve good and competitive goals. As an intern, I am responsible to develop mobile application using Flutter Framework. Attended morning briefing to report daily progress of development. Worked closely to Senior Developer, Tech Lead, and CEO in company's project.`,
+        technologies: ["Flutter", "Firebase", "Android", "OneSignal"],
+    },
 ];
 
 // export const PROJECTS = [
@@ -69,7 +76,7 @@ export const EXPERIENCES = [
 // ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+    address: "767 Fifth Avenue, New York, NY 10153 ",
+    phoneNo: "+12 4555 666 00 ",
+    email: "me@example.com",
 };
