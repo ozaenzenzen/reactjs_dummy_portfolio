@@ -10,7 +10,7 @@ export const newMenus = [
     },
     {
         title: "About Me",
-        path: 'aboutme',
+        path: 'about',
     },
     {
         title: "Project",
