@@ -22,9 +22,17 @@ const ProjectPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
-                className="title my-20 text-center text-4xl"
+                className="title mt-20 text-center text-4xl"
             >
                 Project Page
+            </motion.h2>
+            <motion.h2
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: -100 }}
+                transition={{ duration: 1.5 }}
+                className="title mb-20 mt-5 text-center text-2xl"
+            >
+                Project - Technologies - Part Of
             </motion.h2>
 
             {/* Chip */}
