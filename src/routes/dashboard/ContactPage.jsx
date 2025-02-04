@@ -8,6 +8,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { RiFlutterLine } from "react-icons/ri";
 import { RiJavaLine } from "react-icons/ri";
 import { RiFlutterFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -33,14 +34,19 @@ const ContactPage = () => {
             >
                 Contact
             </motion.h2>
-            <div className="flex flex-wrap items-center justify-center gap-4 space-x-10">
+            <div className="flex sm:flex-row flex-col items-center justify-center gap-4 space-x-10">
                 <motion.div
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
                     className="cursor-pointer rounded-2xl border-4 border-neutral-800 p-4"
                 >
-                    <FaLinkedin className="text-9xl text-blue-700" />
+                    <a
+                        href="https://www.linkedin.com/in/fauzan-akmal-mahdi/"
+                        target="_blank"
+                    >
+                        <FaLinkedin className="text-9xl text-blue-700" />
+                    </a>
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3)}
@@ -48,7 +54,12 @@ const ContactPage = () => {
                     animate="animate"
                     className="cursor-pointer rounded-2xl border-4 border-neutral-800 p-4"
                 >
-                    <FaGithubSquare className="text-9xl text-gray-600" />
+                    <a
+                        href="https://github.com/ozaenzenzen"
+                        target="_blank"
+                    >
+                        <FaGithubSquare className="text-9xl text-gray-600" />
+                    </a>
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
@@ -56,7 +67,12 @@ const ContactPage = () => {
                     animate="animate"
                     className="cursor-pointer rounded-2xl border-4 border-neutral-800 p-4"
                 >
-                    <FaYoutubeSquare className="text-9xl text-red-600" />
+                    <a
+                        href="https://www.youtube.com/channel/UCckF54eS-l51uWyfQqVj9Dg"
+                        target="_blank"
+                    >
+                        <FaYoutubeSquare className="text-9xl text-red-600" />
+                    </a>
                 </motion.div>
             </div>
         </div>
