@@ -9,7 +9,8 @@
         "tags": [
             "UI",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "2",
@@ -25,7 +26,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "3",
@@ -40,7 +42,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "4",
@@ -54,7 +57,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "5",
@@ -67,7 +71,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "6",
@@ -84,7 +89,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "7",
@@ -97,7 +103,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "8",
@@ -110,7 +117,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "9",
@@ -128,7 +136,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "10",
@@ -151,7 +160,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Web"
     },
     {
         "id": "11",
@@ -166,7 +176,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "12",
@@ -182,7 +193,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "13",
@@ -200,7 +212,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "14",
@@ -215,11 +228,12 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "15",
-        "title": "Flutter Package - Responsive Multipage Application Web",
+        "title": "App Project - FAM Restaurant App (Dicoding's Course)",
         "desc": "This is an App Project of Fauzan Akmal Mahdi. \n\nThis application is the submission project of Dicoding's course Belajar Pengembangan Aplikasi Flutter. This application has simple purpose which is to implement the general goal of mobile app development.\n\nThe general purpose of mobile app development is to develop the user interface, user interaction, build client-side logic and also consuming API from the backend.\n\nDicoding course gave me the basic rule of this project. I just have to show the list of restaurant, and navigate to the detail of restaurant. But the data of restaurant is available in dicoding API. So I have to fetch and show to the app screen.\n\nI developed the app using cupertino style, which I rarely used to style. I'm very excited because the cupertino style almost similar with iOS style. And this made me so curious. And I used bloc state management of this app because I think this helps me to improve my skills to control state management.\n\nThe external packages I used are screenutil, dio, flutter bloc, getx, and dartz.\n\nThank you.",
         "foto": [
             "assets/content/project/post15/post15-foto(1).png",
@@ -233,7 +247,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "16",
@@ -258,7 +273,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "17",
@@ -277,7 +293,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "18",
@@ -298,7 +315,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Mobile"
     },
     {
         "id": "19",
@@ -310,7 +328,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Web"
     },
     {
         "id": "20",
@@ -322,7 +341,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Backend"
     },
     {
         "id": "21",
@@ -334,7 +354,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Backend"
     },
     {
         "id": "22",
@@ -346,7 +367,8 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Machine Learning"
     },
     {
         "id": "23",
@@ -358,6 +380,7 @@
         "tags": [
             "App",
             "Flutter"
-        ]
+        ],
+        "type": "Machine Learning"
     }
 ]

@@ -87,6 +87,14 @@
     .table-cell {
         @apply w-fit whitespace-nowrap p-4 font-medium;
     }
+
+    .inactive-chip {
+        @apply bg-slate-100 text-slate-600 shadow-sm dark:bg-slate-900 dark:text-slate-100;
+    }
+
+    .active-chip {
+        @apply bg-slate-900 text-slate-100 shadow-sm dark:bg-slate-100 dark:text-slate-600;
+    }
 }
 
 .recharts-default-tooltip {

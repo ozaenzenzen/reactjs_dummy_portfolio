@@ -6,131 +6,12 @@ import { HiBadgeCheck } from "react-icons/hi";
 import data from "@/constants/project_data.json";
 import ProjectItemComponent from "./component/ProjectItemComponent";
 import ProjectItemComponentV2 from "./component/ProjectItemComponentV2";
+import ChipFilterComponent from "./component/ChipFilterComponent";
+import FilterChip from "./component/FilterChip";
 
-const listItemPricingData = [
-    {
-        name: "Silver",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp1.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Gold",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp2.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Diamond",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp3.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Silver",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp1.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Gold",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp2.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Diamond",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp3.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Silver",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp1.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Gold",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp2.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Diamond",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp3.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Silver",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp1.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Gold",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp2.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-    {
-        name: "Diamond",
-        icon: <HiBadgeCheck className="size-9 fill-white" />,
-        price: "Rp3.000.000",
-        listItems: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-        ],
-    },
-];
 
 const ProjectPage = () => {
+    const types = [...new Set(data.map((item) => item.type))];
     return (
         <div className="border-neutral-900 pb-4">
             <motion.h2
@@ -141,6 +22,17 @@ const ProjectPage = () => {
             >
                 Project Page
             </motion.h2>
+
+            {/* Chip */}
+            <motion.div
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: -100 }}
+                transition={{ duration: 1.5 }}
+                class="flex gap-2"
+            >
+                <FilterChip options={types} />
+            </motion.div>
+
             <div className="flex flex-wrap">
                 <div className="mt-8 grid w-full grid-cols-1 items-start justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {data.map((element) => (
