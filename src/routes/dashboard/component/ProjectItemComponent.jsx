@@ -5,6 +5,26 @@ import { IoMdArrowDroprightCircle } from "react-icons/io";
 import imageTest from "/assets/content/project/post1/post1-foto(1).png";
 import PricingItemComponentV2 from "./ProjectItemComponentV2";
 
+// Function to detect URLs in text and convert them to clickable links
+const convertLinks = (text) => {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  return text.split(urlRegex).map((part, index) =>
+    urlRegex.test(part) ? (
+      <a
+        key={index}
+        href={part}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 underline"
+      >
+        {part}
+      </a>
+    ) : (
+      part
+    )
+  );
+};
+
 const ProjectItemComponent = ({ name, image, desc }) => {
     return (
         <div
@@ -43,7 +63,7 @@ const ProjectItemComponent = ({ name, image, desc }) => {
 
                 <h1 className="title text-center">{name}</h1>
                 <div className="flex max-h-36 w-full flex-col items-center justify-center gap-2 overflow-hidden text-white">
-                    <p className="description">{desc}</p>
+                    <p className="description">{convertLinks(desc)}</p>
                 </div>
                 {/* <div className="max-h-full min-h-20 overflow-hidden rounded-lg bg-blue-200 p-4 shadow-md">
                     <p>

@@ -382,5 +382,57 @@
             "Flutter"
         ],
         "type": "Machine Learning"
+    },
+    {
+        "id": "24",
+        "title": "React JS - Portfolio Web 1",
+        "desc": "Slicing Portfolio User Interface of Web Application using React JS and Tailwind. See more on this link Visit https://reactjs-template-4.vercel.app/",
+        "foto": [
+            "assets/content/project/post24/post24.png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ],
+        "type": "Web"
+    },
+    {
+        "id": "25",
+        "title": "React JS - Portfolio Web 2",
+        "desc": "Slicing Portfolio User Interface of Web Application using React JS and Tailwind. See more on this link Visit https://react-portfolio-fam1.vercel.app/",
+        "foto": [
+            "assets/content/project/post25/post25.png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ],
+        "type": "Web"
+    },
+    {
+        "id": "26",
+        "title": "React JS - Dashboard Web 1",
+        "desc": "Slicing Dashboard Web User Interface of Web Application using React JS and Tailwind. See more on this link Visit https://reactjs-openshop-dashboard.vercel.app/",
+        "foto": [
+            "assets/content/project/post26/post26.png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ],
+        "type": "Web"
+    },
+    {
+        "id": "27",
+        "title": "React JS - Dashboard Web 2",
+        "desc": "Slicing Dashboard Web User Interface of Web Application using React JS and Tailwind. See more on this link Visit https://reactjs-dashboard-1.vercel.app/",
+        "foto": [
+            "assets/content/project/post27/post27.png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ],
+        "type": "Web"
     }
 ]
