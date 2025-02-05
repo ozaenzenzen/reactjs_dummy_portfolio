@@ -10,14 +10,16 @@ import logoDark from "@/assets/logo-dark.svg";
 import { navbarLinks, newMenus } from "@/constants";
 import { Link, NavLink } from "react-router-dom";
 
-const Header = ({ collapsed, setCollapsed }) => {
+const Header = ({ collapsed, setCollapsed, isDesktopDevice }) => {
     const { theme, setTheme } = useTheme();
 
     return (
         <header className="relative z-10 flex h-[60px] items-center justify-between bg-white px-4 shadow-md transition-colors dark:bg-slate-900">
-
             {/* Logo Fauzan Lab */}
-            <div className="flex items-center gap-x-3">
+            <button
+                onClick={!isDesktopDevice ? () => setCollapsed(!collapsed) : null}
+                className="flex items-center gap-x-3"
+            >
                 <div className="flex gap-x-3 p-3">
                     <img
                         src={logoLight}
@@ -50,18 +52,25 @@ const Header = ({ collapsed, setCollapsed }) => {
                         className="w-full bg-transparent text-slate-900 outline-0 placeholder:text-slate-300 dark:text-slate-50"
                     />
                 </div> */}
-            </div>
+            </button>
 
             {/* Navigation Menu */}
             <div className="flex items-center gap-x-3">
-                <div className="inline-flex lg:space-x-10 space-x-2 w-full flex-row gap-y-4 overflow-y-auto overflow-x-hidden p-3 [scrollbar-width:_thin]">
+                <div className="inline-flex w-full flex-row gap-y-4 space-x-2 overflow-y-auto overflow-x-hidden p-3 [scrollbar-width:_thin] lg:space-x-10">
                     {newMenus.map((newMenu) => (
+                        //     <Link
+                        //     key={newMenu.title}
+                        //     to={newMenu.path}
+                        //     className={cn("sidebar-group-title", collapsed && "md:items-center hidden lg:block")}
+                        // >
+                        //     <p className={cn("sidebar-group-title-v2", collapsed && "md:w-[45px]", "w-full cursor-pointer text-center p-2")}>{newMenu.title}</p>
+                        // </Link>
                         <Link
                             key={newMenu.title}
                             to={newMenu.path}
-                            className={cn("sidebar-group-title", collapsed && "md:items-center hidden lg:block")}
+                            className={cn("sidebar-group-title", "hidden md:block md:items-center")}
                         >
-                            <p className={cn("sidebar-group-title-v2", collapsed && "md:w-[45px]", "w-full cursor-pointer text-center p-2")}>{newMenu.title}</p>
+                            <p className={cn("sidebar-group-title-v2", "w-full cursor-pointer p-2 text-center")}>{newMenu.title}</p>
                         </Link>
                     ))}
                 </div>

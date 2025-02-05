@@ -52,6 +52,7 @@ const ProjectPage = () => {
                 <div className="mt-8 grid w-full grid-cols-1 items-start justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {filteredItems.map((element) => (
                         <motion.div
+                            key={element.id}
                             whileInView={{ opacity: 1, y: 0 }}
                             initial={{ opacity: 0, y: 100 }}
                             transition={{ duration: 1.5 }}

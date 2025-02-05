@@ -47,7 +47,9 @@ const ExperiencePage = () => {
 
                                 <div className="space-x-2">
                                     {item.technologies.map((itemTech, index) => (
-                                        <div className="card inline-flex p-2 my-2">
+                                        <div 
+                                            key={itemTech}
+                                            className="card inline-flex p-2 my-2">
                                             <h2 className="description">{itemTech}</h2>
                                         </div>
                                         // <span
