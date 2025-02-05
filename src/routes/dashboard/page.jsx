@@ -25,9 +25,9 @@ const DashboardPage = () => {
                 >
                     <div className={cn("flex h-full items-center justify-center text-center lg:text-start")}>
                         <div>
-                            <h1 className="title mb-10 text-5xl">Fauzan Akmal Mahdi</h1>
-                            <p className="description my-2 max-w-xl text-2xl">Software Engineer.</p>
-                            <p className="description my-2 max-w-xl">
+                            <h1 className="title mb-10 md:text-5xl text-3xl">Fauzan Akmal Mahdi</h1>
+                            <p className="description my-2 max-w-xl md:text-2xl text-xl">Software Engineer.</p>
+                            <p className="description my-2 max-w-xl md:text-base text-sm">
                                 4 years experience as software engineer using various tech stack such as Flutter, Kotlin, Swift, React JS, Golang,
                                 Python and doing research on machine learning & deep learning world.
                             </p>
@@ -45,7 +45,7 @@ const DashboardPage = () => {
                         <img
                             src={aboutImg}
                             alt="about"
-                            className="h-[500px] rounded-2xl"
+                            className="md:h-[500px] h-[350px] rounded-2xl"
                         />
                     </div>
                 </motion.div>
