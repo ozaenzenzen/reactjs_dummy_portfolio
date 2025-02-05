@@ -25,11 +25,11 @@ const Layout = () => {
 
     const sidebarRef = useRef(null);
 
-    // useEffect(() => {
-    //     if (isDesktopDevice) {
-    //         setCollapsed(true);
-    //     }
-    // }, [isDesktopDevice]);
+    useEffect(() => {
+        if (isDesktopDevice) {
+            setCollapsed(true);
+        }
+    }, [isDesktopDevice]);
 
     useClickOutside([sidebarRef], () => {
         if (isDesktopDevice == false && collapsed == false) {

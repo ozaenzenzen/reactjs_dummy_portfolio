@@ -24,7 +24,8 @@ export const Sidebar = forwardRef(({ isDesktopDevice, collapsed }, ref) => {
                 isDesktopDevice
                     ? cn(
                           "fixed z-[100] flex h-full w-[240px] flex-col overflow-x-hidden border-r border-slate-300 bg-white dark:border-slate-700 dark:bg-slate-900",
-                          collapsed ? "md:w-[0px] md:items-center" : "md:w-[240px]",
+                        //   collapsed ? "md:w-[0px] md:items-center" : "md:w-[240px]",
+                        "md:w-[0px] md:items-center"
                         //   collapsed ? "max-md:-left-full" : "max-md:left-0",
                       )
                     : cn(
