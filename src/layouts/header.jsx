@@ -9,6 +9,8 @@ import logoLight from "@/assets/logo-light.svg";
 import logoDark from "@/assets/logo-dark.svg";
 import { navbarLinks, newMenus } from "@/constants";
 import { Link, NavLink } from "react-router-dom";
+import { FaHamburger } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = ({ collapsed, setCollapsed, isDesktopDevice }) => {
     const { theme, setTheme } = useTheme();
@@ -20,8 +22,8 @@ const Header = ({ collapsed, setCollapsed, isDesktopDevice }) => {
                 onClick={!isDesktopDevice ? () => setCollapsed(!collapsed) : null}
                 className="flex items-center gap-x-3"
             >
-                <div className="flex gap-x-3 p-3">
-                    <img
+                <div className="flex items-center justify-center gap-x-3 p-3">
+                    {/* <img
                         src={logoLight}
                         alt="Logoipsum"
                         className="dark:hidden"
@@ -30,8 +32,10 @@ const Header = ({ collapsed, setCollapsed, isDesktopDevice }) => {
                         src={logoDark}
                         alt="Logoipsum"
                         className="hidden dark:block"
-                    />
-                    {isDesktopDevice && <p className="text-lg font-medium text-slate-900 transition-colors dark:text-slate-50">Fauzan's Lab</p>}
+                    /> */}
+                    {!isDesktopDevice && <GiHamburgerMenu className="mr-3 size-7 text-slate-950 dark:text-slate-50" />}
+                    <p className="text-lg font-medium text-slate-900 transition-colors dark:text-slate-50">Fauzan's Lab</p>
+                    {/* {isDesktopDevice && <p className="text-lg font-medium text-slate-900 transition-colors dark:text-slate-50">Fauzan's Lab</p>} */}
                 </div>
                 {/* <button
                     className="btn-ghost size-10"

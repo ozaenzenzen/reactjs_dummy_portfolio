@@ -34,8 +34,8 @@ const AboutMePage = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2"
                 >
-                    <div className="flex justify-center text-white lg:justify-start">
-                        <p className="description my-2 max-w-xl py-6">
+                    <div className="flex justify-center text-justify text-white lg:justify-start">
+                        <p className="description my-2 max-w-2xl py-6">
                             With 3 years of hands-on experience as a software engineer, I thrive on the challenge of turning complex problems into
                             elegant solutions. My expertise spans a dynamic tech stack, including Flutter for creating captivating frontend mobile
                             applications, React JS for web application development, Golang for building robust backend systems, and Python for

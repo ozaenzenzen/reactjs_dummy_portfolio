@@ -34,11 +34,11 @@ const ContactPage = () => {
             >
                 Contact
             </motion.h2>
-            <div className="flex sm:flex-row flex-col items-center justify-center gap-4 space-x-10">
-                <motion.div
-                    variants={iconVariants(2.5)}
-                    initial="initial"
-                    animate="animate"
+            <div className="flex flex-col items-center justify-center gap-4 sm:flex-row md:flex-row">
+                <div
+                    // variants={iconVariants(1)}
+                    // initial="initial"
+                    // animate="animate"
                     className="cursor-pointer rounded-2xl border-4 border-neutral-800 p-4"
                 >
                     <a
@@ -47,11 +47,11 @@ const ContactPage = () => {
                     >
                         <FaLinkedin className="text-9xl text-blue-700" />
                     </a>
-                </motion.div>
-                <motion.div
-                    variants={iconVariants(3)}
-                    initial="initial"
-                    animate="animate"
+                </div>
+                <div
+                    // variants={iconVariants(1)}
+                    // initial="initial"
+                    // animate="animate"
                     className="cursor-pointer rounded-2xl border-4 border-neutral-800 p-4"
                 >
                     <a
@@ -60,11 +60,11 @@ const ContactPage = () => {
                     >
                         <FaGithubSquare className="text-9xl text-gray-600" />
                     </a>
-                </motion.div>
-                <motion.div
-                    variants={iconVariants(5)}
-                    initial="initial"
-                    animate="animate"
+                </div>
+                <div
+                    // variants={iconVariants(1)}
+                    // initial="initial"
+                    // animate="animate"
                     className="cursor-pointer rounded-2xl border-4 border-neutral-800 p-4"
                 >
                     <a
@@ -73,7 +73,7 @@ const ContactPage = () => {
                     >
                         <FaYoutubeSquare className="text-9xl text-red-600" />
                     </a>
-                </motion.div>
+                </div>
             </div>
         </div>
     );
