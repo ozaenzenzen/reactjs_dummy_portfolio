@@ -52,6 +52,7 @@ const Layout = () => {
                 isDesktopDevice={isDesktopDevice}
                 ref={sidebarRef}
                 collapsed={collapsed}
+                setCollapsed={setCollapsed}
             />
             <div className={cn("transition-[margin] duration-300", collapsed ? "md:ml-[0px]" : "md:ml-[0px]")}>
                 <Header

@@ -10,7 +10,7 @@ import { cn } from "@/utils/cn";
 
 import PropTypes from "prop-types";
 
-export const Sidebar = forwardRef(({ isDesktopDevice, collapsed }, ref) => {
+export const Sidebar = forwardRef(({ isDesktopDevice, collapsed, setCollapsed }, ref) => {
     console.log(`collapsed: ${collapsed}`);
     return (
         <aside
@@ -66,6 +66,7 @@ export const Sidebar = forwardRef(({ isDesktopDevice, collapsed }, ref) => {
                         to={navbarLink.path}
                         // className={cn("sidebar-group", collapsed && "md:items-center")}
                         className={cn("sidebar-group", "my-2")}
+                        onClick={() => setCollapsed(true)}
                     >
                         {/* <p className={cn("sidebar-group-title", collapsed && "md:w-[45px]")}>{navbarLink.title}</p> */}
                         <p className={cn("sidebar-group-title", !collapsed && "text-xl", collapsed && "md:w-[45px]")}>{navbarLink.title}</p>
