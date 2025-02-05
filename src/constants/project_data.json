@@ -336,7 +336,7 @@
         "title": "Backend - Relaone Backend Service (Golang)",
         "desc": "This is backend project of Fauzan Akmal Mahdi.\n\nThe project developed using Golang language, database I've used is MySql Phpmyadmin, and the library I've used like gin for http web framework and gorm to handle relational mapping service.\n\nThere are 3 roles of user of the app. Volunteer, Organization, and Admin. \nEach role have different scope ability. Volunteer can only sign up & sign in an account and join available events. Organization can create event, accept & reject volunteers. And Admin can approve and reject event submitted.\nThis service has notification features.\n\nFrom the Account models, I've built endpoint service for all role users\n- sign up account \n- sign in account\n- get user data\nin this service I developed security like jwt token. So all service is secure to security attacks.\n\nFrom the Event models, I've built endpoint service \n- get all event (for all roles)\n- create event (for organization role)\n- join event (for volunteer role)\n- submit volunteer (for organization role)\n- submit event (for admin role to approve or reject event added)\n- get list volunteers (for admin and organization roles)\nevery action for create event, join event, submit volunteer, and submit event will add notification to the table notification. But I don't add push notification service on this case, only add data to the table notification.\n\nFrom the Notification models, I've built endpoint service  \n- get notification (for all roles)",
         "foto": [
-            "assets/content/project/post15/post15-foto(1).png"
+            "assets/content/project/post16/post16-foto(1).png"
         ],
         "tags": [
             "App",

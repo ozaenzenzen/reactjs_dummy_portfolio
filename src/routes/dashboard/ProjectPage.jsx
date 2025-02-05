@@ -9,12 +9,16 @@ import ProjectItemComponentV2 from "./component/ProjectItemComponentV2";
 import ChipFilterComponent from "./component/ChipFilterComponent";
 import FilterChip from "./component/FilterChip";
 
+import DetailProjectComponent from "./component/DetailProjectComponent";
+
 const ProjectPage = () => {
     const types = [...new Set(data.map((item) => item.type))];
 
     const [selectedOption, setSelectedOption] = useState(null);
 
     const filteredItems = selectedOption === null ? data : data.filter((item) => item.type === selectedOption);
+
+    const [selectedItem, setSelectedItem] = useState(null);
 
     return (
         <div className="border-neutral-900 pb-4">
@@ -40,7 +44,7 @@ const ProjectPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
-                class="flex gap-2"
+                className="flex gap-2"
             >
                 <FilterChip
                     options={types}
@@ -50,35 +54,41 @@ const ProjectPage = () => {
 
             <div className="flex flex-wrap">
                 <div className="mt-8 grid w-full grid-cols-1 items-start justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                    {filteredItems.map((element) => (
-                        <motion.div
-                            key={element.id}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            initial={{ opacity: 0, y: 100 }}
-                            transition={{ duration: 1.5 }}
-                        >
-                            <ProjectItemComponent
+                    {filteredItems.map((element) => {
+                        return (
+                            <motion.div
                                 key={element.id}
-                                name={element.title}
-                                image={element.foto[0]}
-                                desc={element.desc}
-                            />
-                        </motion.div>
-                    ))}
-                    {/* {listItemPricingData.map((element) => (
-                        <motion.div
-                            whileInView={{ opacity: 1, y: 0 }}
-                            initial={{ opacity: 0, y: 100 }}
-                            transition={{ duration: 1.5 }}
-                        >
-                            <PricingItemComponent
-                                name={element.name}
-                                icon={element.icon}
-                                price={element.price}
-                                listItems={element.listItems}
-                            />
-                        </motion.div>
-                    ))} */}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                initial={{ opacity: 0, y: 100 }}
+                                transition={{ duration: 1.5 }}
+                            >
+                                <button
+                                    onClick={() => {
+                                        setSelectedItem(element.title);
+                                    }}
+                                >
+                                    <ProjectItemComponent
+                                        key={element.id}
+                                        name={element.title}
+                                        image={element.foto[0]}
+                                        desc={element.desc}
+                                    />
+                                </button>
+                                {selectedItem == element.title && selectedItem != null && (
+                                    <DetailProjectComponent
+                                        key={element.id}
+                                        isOpen={selectedItem == element.title && selectedItem != null}
+                                        onClose={() => {
+                                            setSelectedItem(null);
+                                        }}
+                                        title={element.title}
+                                        description={element.desc}
+                                        image={element.foto}
+                                    />
+                                )}
+                            </motion.div>
+                        );
+                    })}
                 </div>
             </div>
         </div>
