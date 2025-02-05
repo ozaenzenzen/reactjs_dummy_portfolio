@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Description, Dialog, DialogPanel, DialogTitle, Button } from "@headlessui/react";
+import { MdClose } from "react-icons/md";
 
 const DetailProjectComponent = ({ isOpen, onClose, title, description, image }) => {
     return (
@@ -13,9 +14,20 @@ const DetailProjectComponent = ({ isOpen, onClose, title, description, image }) 
                 <div className="flex min-h-full items-center justify-center p-4">
                     <DialogPanel
                         transition
-                        className="data-[closed]:transform-[scale(95%)] w-full max-w-md rounded-xl bg-slate-50/50 p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:opacity-0 dark:bg-slate-950/50"
+                        className="data-[closed]:transform-[scale(95%)] w-full max-w-3xl rounded-xl bg-slate-50/50 p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:opacity-0 dark:bg-slate-950/50"
                     >
-                        <div className="flex flex-nowrap justify-center overflow-x-scroll">
+                        <div className="mb-4 mt-4 flex justify-end">
+                            <button onClick={onClose}>
+                                <MdClose className="size-8 text-slate-950 dark:text-slate-50" />
+                            </button>
+                            {/* <Button
+                                className="inline-flex items-center gap-2 rounded-md bg-gray-700 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white"
+                                onClick={onClose}
+                            >
+                                Back
+                            </Button> */}
+                        </div>
+                        <div className="mb-4 flex flex-nowrap justify-center overflow-x-scroll">
                             {image.map((element) => (
                                 <img
                                     src={element}
@@ -42,14 +54,6 @@ const DetailProjectComponent = ({ isOpen, onClose, title, description, image }) 
                             {description}
                             {/* Your payment has been successfully submitted. We’ve sent you an email with all of the details of your order. */}
                         </p>
-                        <div className="mt-4">
-                            <Button
-                                className="inline-flex items-center gap-2 rounded-md bg-gray-700 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white"
-                                onClick={onClose}
-                            >
-                                Back
-                            </Button>
-                        </div>
                     </DialogPanel>
                 </div>
             </div>
