@@ -31,7 +31,7 @@ const Header = ({ collapsed, setCollapsed, isDesktopDevice }) => {
                         alt="Logoipsum"
                         className="hidden dark:block"
                     />
-                    {!collapsed && <p className="text-lg font-medium text-slate-900 transition-colors dark:text-slate-50">Fauzan's Lab</p>}
+                    {isDesktopDevice && <p className="text-lg font-medium text-slate-900 transition-colors dark:text-slate-50">Fauzan's Lab</p>}
                 </div>
                 {/* <button
                     className="btn-ghost size-10"
