@@ -45,7 +45,7 @@ const DashboardPage = () => {
                         <img
                             src={aboutImg}
                             alt="about"
-                            className="md:h-[500px] h-[350px] rounded-2xl"
+                            className="lg:h-[650px] md:h-[550px] h-[400px] rounded-2xl"
                         />
                     </div>
                 </motion.div>
