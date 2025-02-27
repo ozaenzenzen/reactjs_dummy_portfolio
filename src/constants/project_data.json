@@ -434,5 +434,31 @@
             "Flutter"
         ],
         "type": "Web"
+    },
+    {
+        "id": "28",
+        "title": "App Project - To Do List App",
+        "desc": "an App Project developed using Flutter Framework for managing to do list activity. There are some action on this app, there are Add Task, Update Task, Get List Task, Delete Task, and Finish Task",
+        "foto": [
+            "assets/content/project/post28/post28.png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ],
+        "type": "Mobile"
+    },
+    {
+        "id": "29",
+        "title": "Backend - To Do List Backend Service (Golang)",
+        "desc": "Service Backend for To Do List App. Developed using Golang, with gin and gorm, there are some CRUD actions for the app. The action are Add Task, Update Task, Get List Task, Delete Task, and Finish Task",
+        "foto": [
+            "assets/content/project/post29/post29.png"
+        ],
+        "tags": [
+            "App",
+            "Flutter"
+        ],
+        "type": "Backend"
     }
 ]
