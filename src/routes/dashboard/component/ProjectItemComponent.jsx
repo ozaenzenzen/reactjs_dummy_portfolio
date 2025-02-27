@@ -43,7 +43,7 @@ const ProjectItemComponent = ({ name, image, desc }) => {
                 <div className="flex w-full flex-col items-center justify-center gap-6 rounded-lg px-4 py-6">
                     <h1 className="title text-center">{name}</h1>
                     <div className="flex max-h-36 w-full flex-col items-center justify-center gap-2 overflow-hidden text-white">
-                        <p className="description line-clamp-5">{convertLinks(desc)}</p>
+                        <p className="description line-clamp-5 break-all">{convertLinks(desc)}</p>
                     </div>
                 </div>
             </div>
