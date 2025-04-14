@@ -8,7 +8,14 @@ In Taekwondo Martial Arts: Beyond the realm of technology, I immerse myself in t
 
 export const EXPERIENCES = [
     {
-        year: "Nov 2021 - Present",
+        year: "Apr 2025 - Present",
+        role: "Sr. Mobile Engineer",
+        company: "Sprint Asia Group",
+        description: `Developing...`,
+        technologies: ["Flutter", "Android", "iOS", "Module", "SDK"],
+    },
+    {
+        year: "Nov 2021 - Mar 2025",
         role: "Mobile Engineer",
         company: "PT Qoin Digital Indonesia",
         description: `As a mobile engineer, I am responsible of the development of a company projects mobile application using Flutter Framework. Design and build application for Android & iOS platform, enhance the performance of the application, involved in discussing the development timeline, integration and develop new features, work closely with cross-functional teams to define, design, and ship new features, and continuously discover, evaluate, and implement new technologies to maximize development efficiency.
