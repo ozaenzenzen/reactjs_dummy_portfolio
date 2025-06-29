@@ -36,9 +36,11 @@ const AboutMePage = () => {
                 >
                     <div className="flex justify-center text-justify text-white lg:justify-start">
                         <p className="description my-2 max-w-2xl py-6">
-                            With 3 years of hands-on experience as a software engineer, I thrive on the challenge of turning complex problems into
-                            elegant solutions. My expertise spans a dynamic tech stack, including Flutter for creating captivating frontend mobile
-                            applications, React JS for web application development, Golang for building robust backend systems, and Python for
+                            With more than 4 years of hands-on experience as a software engineer, I thrive on the challenge of turning complex problems into
+                            elegant solutions. My expertise spans a dynamic tech stack, mobile applications using various tools development such as Flutter, 
+                            Android Native using Java and Kotlin, iOS Native using SwiftUI, Swift UI Kit, Objective C, Flutter Add to Existing Native App 
+                            (a concept where we developed an UI and logic using Flutter and embed it to existing Android or iOS native app), and using React Native
+                            , React JS for web application development, Golang for building robust backend systems, and Python for
                             pioneering developments in machine learning. Additionally, I have a solid foundation in OOP programming languages like
                             Java and Kotlin, enhancing my versatility as an engineer. In 2022, I proudly graduated with a bachelor's degree in
                             Computer Science, specializing in the fascinating realm of Deep Learning. Throughout my academic journey, I maintained an
