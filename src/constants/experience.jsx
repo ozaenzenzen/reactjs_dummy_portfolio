@@ -10,8 +10,14 @@ export const EXPERIENCES = [
     {
         year: "Apr 2025 - Present",
         role: "Sr. Mobile Engineer",
-        company: "Sprint Asia Group",
-        description: `Developing...`,
+        company: "PT Sprint Asia Technology",
+        description: `
+            - Designed and built architecture for mobile applications
+            - Architected scalable and modular mobile application frameworks
+            - Extended SDK support from web to mobile platforms
+            - Facilitated developer adoption through well-documented, flexible, and extensible SDK interfaces
+            - Managed the development of mobile SDKs compatible with Android, iOS, and Flutter empowering partner developers and clients
+            - Handled SDK versioning, package management, and dependency updates to deliver consistent, reliable releases`,
         technologies: ["Flutter", "Android", "iOS", "Module", "SDK"],
     },
     {
