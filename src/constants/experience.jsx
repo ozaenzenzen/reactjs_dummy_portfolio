@@ -9,10 +9,9 @@ In Taekwondo Martial Arts: Beyond the realm of technology, I immerse myself in t
 export const EXPERIENCES = [
     {
         year: "Apr 2025 - Present",
-        role: "Sr. Mobile Engineer",
+        role: "Senior Mobile Developer",
         company: "PT Sprint Asia Technology",
-        description: `
-            - Designed and built architecture for mobile applications
+        description: `- Designed and built architecture for mobile applications
             - Architected scalable and modular mobile application frameworks
             - Extended SDK support from web to mobile platforms
             - Facilitated developer adoption through well-documented, flexible, and extensible SDK interfaces
