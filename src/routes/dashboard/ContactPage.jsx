@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import aboutImg from "@/assets/profile-image2.jpg";
 import { BsAndroid2 } from "react-icons/bs";
-import { FaGithub, FaGithubAlt, FaGithubSquare, FaLinkedin, FaNodeJs, FaYoutube, FaYoutubeSquare } from "react-icons/fa";
+import { FaGithub, FaGithubAlt, FaGithubSquare, FaLinkedin, FaMedium, FaNodeJs, FaYoutube, FaYoutubeSquare } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
 import { RiReactjsLine } from "react-icons/ri";
 import { RiFlutterLine } from "react-icons/ri";
@@ -35,6 +35,19 @@ const ContactPage = () => {
                 Contact
             </motion.h2>
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row md:flex-row">
+                <div
+                    // variants={iconVariants(1)}
+                    // initial="initial"
+                    // animate="animate"
+                    className="cursor-pointer rounded-2xl border-4 border-neutral-800 p-4"
+                >
+                    <a
+                        href="https://medium.com/@ozaenzenzen"
+                        target="_blank"
+                    >
+                        <FaMedium className="text-9xl text-blue-700"/>
+                    </a>
+                </div>
                 <div
                     // variants={iconVariants(1)}
                     // initial="initial"
