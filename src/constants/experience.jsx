@@ -1,10 +1,28 @@
-export const HERO_CONTENT = `Software engineer over three years experience in full-stack mobile development (flutter & golang). Challenged to take complexity and turn it into simple things. Able to break down concepts and communicatively to deliver objectivity into team progress. Handled threading process on image processing and face recognition in flutter, developed & deployed backend service, and I have worked with the implementation of machine learning models into mobile applications.`;
+export const HERO_CONTENT = `Software engineer over five years experience in full-stack mobile development (flutter & golang). Challenged to take complexity and turn it into simple things. Able to break down concepts and communicatively to deliver objectivity into team progress. Handled threading process on image processing and face recognition in flutter, developed & deployed backend service, and I have worked with the implementation of machine learning models into mobile applications.`;
 
-export const ABOUT_TEXT = `With more than 4 years of hands-on experience as a software engineer, I thrive on the challenge of turning complex problems into elegant solutions. My expertise spans a dynamic tech stack, mobile applications using various tools development such as Flutter, Android Native using Java and Kotlin, iOS Native using SwiftUI, Swift UI Kit, Objective C, Flutter Add to Existing Native App (a concept where we developed an UI and logic using Flutter and embed it to existing Android or iOS native app), and using React Native, Golang for building robust backend systems, and Python for pioneering developments in machine learning. Additionally, I have a solid foundation in OOP programming languages like Java and Kotlin, enhancing my versatility as an engineer.
+export const ABOUT_TEXT_OLD = `With more than 5 years of hands-on experience as a software engineer, I thrive on the challenge of turning complex problems into elegant solutions. My expertise spans a dynamic tech stack, mobile applications using various tools development such as Flutter, Android Native using Java and Kotlin, iOS Native using SwiftUI, Swift UI Kit, Objective C, Flutter Add to Existing Native App (a concept where we developed an UI and logic using Flutter and embed it to existing Android or iOS native app), and using React Native, Golang, Python, NodeJS for building robust backend systems, and Python for learning developments in machine learning.
 
 In 2022, I proudly graduated with a bachelor's degree in Computer Science, specializing in the fascinating realm of Deep Learning. Throughout my academic journey, I maintained an outstanding GPA of 3.86, a testament to my commitment to excellence. My passion for innovation led me to embark on a remarkable thesis, where I implemented Convolutional Neural Networks (CNN) to identify Taekwondo Martial Arts Movement. This groundbreaking research has been recognized and accepted as a research paper by the prestigious Institute of Electrical and Electronics Engineers (IEEE).
 
 In Taekwondo Martial Arts: Beyond the realm of technology, I immerse myself in the discipline of Taekwondo. As a dedicated practitioner with a black belt, I embrace the ethos of perseverance, respect, and continuous growth. My thesis project exemplifies my dedication to combining my passion for martial arts with my IT skill set to tackle real-world challenges.`;
+
+export const ABOUT_TEXT = `With more than 5 years of hands-on experience as a software engineer, I thrive on the challenge of turning complex problems into
+                            elegant solutions. My expertise spans a dynamic tech stack, mobile applications using various tools development such as Flutter, 
+                            Android Native using Java and Kotlin, iOS Native using SwiftUI, Swift UI Kit, Objective C, Flutter Add to Existing Native App 
+                            (a concept where we developed an UI and logic using Flutter and embed it to existing Android or iOS native app), and using React Native
+                            , React JS for web development, Golang, Python, NodeJS for building robust backend systems, and Python for
+                            learning developments in machine learning. In 2022, I proudly graduated with a bachelor's degree in
+                            Computer Science, specializing in the fascinating realm of Deep Learning. Throughout my academic journey, I maintained an
+                            outstanding GPA of 3.86, a testament to my commitment to excellence. My passion for innovation led me to embark on a
+                            remarkable thesis, where I implemented Convolutional Neural Networks (CNN) to identify Taekwondo Martial Arts Movement.
+                            This groundbreaking research has been recognized and accepted as a research paper by the prestigious Institute of
+                            Electrical and Electronics Engineers (IEEE). In Taekwondo Martial Arts: Beyond the realm of technology, I immerse myself
+                            in the discipline of Taekwondo. As a dedicated practitioner with a black belt, I embrace the ethos of perseverance,
+                            respect, and continuous growth. My thesis project exemplifies my dedication to combining my passion for martial arts with
+                            my IT skill set to tackle real-world challenges.`;
+
+export const SHORT_DESCRIPTION = `5 years experience as software engineer using various tech stack for mobile apps such as Flutter, Kotlin, Swift, React Native, crafting for web using React JS and Next JS, also for backend 
+                                using Golang, Python, JS and doing research on machine learning & deep learning world.`;                    
 
 export const EXPERIENCES = [
     {
@@ -15,9 +33,11 @@ export const EXPERIENCES = [
             - Architected scalable and modular mobile application frameworks
             - Extended SDK support from web to mobile platforms
             - Facilitated developer adoption through well-documented, flexible, and extensible SDK interfaces
-            - Managed the development of mobile SDKs compatible with Android, iOS, and Flutter empowering partner developers and clients
-            - Handled SDK versioning, package management, and dependency updates to deliver consistent, reliable releases`,
-        technologies: ["Flutter", "Android", "iOS", "Module", "SDK"],
+            - Managed the development of mobile SDKs compatible with Android, iOS, Flutter, and Other empowering partner developers and clients
+            - Handled SDK versioning, package management, and dependency updates to deliver consistent, reliable releases
+            - Develop existing systems of Customers Messaging Systems for web platform to Mobile Application Platforms
+            `,
+        technologies: ["Flutter", "Android", "iOS", "Module", "SDK", "Firebase", "Analytics", "Flutter Add to Existing Native App", "React Native"],
     },
     {
         year: "Nov 2021 - Mar 2025",

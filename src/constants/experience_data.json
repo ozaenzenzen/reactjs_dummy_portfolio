@@ -1,0 +1,46 @@
+{
+    "EXPERIENCES": [
+      {
+        "year": "Apr 2025 - Present",
+        "role": "Senior Mobile Developer",
+        "company": "PT Sprint Asia Technology",
+        "description": "",
+        "point_description": [
+          "Designed and built architecture for mobile applications",
+          "Architected scalable and modular mobile application frameworks",
+          "Extended SDK support from web to mobile platforms",
+          "Facilitated developer adoption through well-documented, flexible, and extensible SDK interfaces",
+          "Managed the development of mobile SDKs compatible with Android, iOS, and Flutter empowering partner developers and clients",
+          "Handled SDK versioning, package management, and dependency updates to deliver consistent, reliable releases",
+          "Develop existing systems of Customers Messaging Systems for web platform to Mobile Application Platforms"
+        ],
+        "technologies": ["Flutter", "Android", "iOS", "Module", "SDK", "Firebase", "Analytics", "Flutter Add to Existing Native App", "React Native"]
+      },
+      {
+        "year": "Nov 2021 - Mar 2025",
+        "role": "Mobile Engineer",
+        "company": "PT Qoin Digital Indonesia",
+        "description": "As a mobile engineer, I am responsible of the development of a company projects mobile application using Flutter Framework. Design and build application for Android & iOS platform, enhance the performance of the application, involved in discussing the development timeline, integration and develop new features, work closely with cross-functional teams to define, design, and ship new features, and continuously discover, evaluate, and implement new technologies to maximize development efficiency.\n- Optimizing camera feature for the app\n- Implement MLKit Face Detection for face compare & motion detection\n- Implement MLKit Text Recognizition for Optical Character Recognition (OCR)\n- Improvement memory usage of management state (BLoC, GetX, Provider)\n- Research and develop web3 of mobile app\n- Implement security layer in mobile app (Signature, SSL Pinning, Encryption, Obfuscation)\n- Test Driven Development\n- Implement CI/CD for mobile application (Codemagic)",
+        "technologies": ["Flutter", "Firebase", "MLKit", "Push Notifications", "Sentry", "Amplitude", "Blockchain"]
+      },
+      {
+        "year": "2022 - Present",
+        "role": "Software Engineer",
+        "company": "Freelance Role",
+        "description": "",
+        "technologies": [
+          "Mobile App Development (Flutter, React Native, Android Native, iOS Native)",
+          "Frontend Web Development (React JS)",
+          "Backend Development (Golang, Python, Javascript)",
+          "Machine Learning (Python, Pytorch, Tensorflow)"
+        ]
+      },
+      {
+        "year": "May 2021 - Aug 2021",
+        "role": "Software Engineer (Intern)",
+        "company": "PT Deggan Technowave",
+        "description": "At Deggan, supportive culture is a good way to improve the work. Deggan is a company that provides service to support people digitizing to achieve good and competitive goals. As an intern, I am responsible to develop mobile application using Flutter Framework. Attended morning briefing to report daily progress of development. Worked closely to Senior Developer, Tech Lead, and CEO in company's project.",
+        "technologies": ["Flutter", "Firebase", "Android", "OneSignal"]
+      }
+    ]
+  }

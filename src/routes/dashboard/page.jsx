@@ -11,6 +11,8 @@ import aboutImg from "@/assets/profile-image3.jpg";
 import { motion } from "framer-motion";
 import { cn } from "../../utils/cn";
 
+import {SHORT_DESCRIPTION} from "../../constants/experience"
+
 const DashboardPage = () => {
     const { theme } = useTheme();
 
@@ -28,8 +30,7 @@ const DashboardPage = () => {
                             <h1 className="title mb-10 md:text-5xl text-3xl">Fauzan Akmal Mahdi</h1>
                             <p className="description my-2 max-w-xl md:text-2xl text-xl">Software Engineer.</p>
                             <p className="description my-2 max-w-xl md:text-base text-sm">
-                                4 years experience as software engineer using various tech stack such as Flutter, Kotlin, Swift, React JS, Golang,
-                                Python and doing research on machine learning & deep learning world.
+                                {SHORT_DESCRIPTION}
                             </p>
                             <div className="mb-10"></div>
                         </div>
