@@ -1,7 +1,21 @@
 {
     "EXPERIENCES": [
       {
-        "year": "Apr 2025 - Present",
+        "year": "May 2026 - Present",
+        "role": "Product Developer",
+        "company": "Undisclosed",
+        "description": "",
+        "point_description": [
+          "Developed and maintained full-stack IoT business products, delivering end-to-end solutions from backend services to web and mobile applications",
+          "Built scalable backend systems using Go and JavaScript to handle IoT device data processing, real-time communication, and business logic",
+          "Designed and developed responsive web applications using React.js and modern JavaScript, creating intuitive user interfaces for IoT monitoring and management dashboards",
+          "Developed cross-platform mobile applications using Flutter and React Native, along with native development using Kotlin (Android) and Swift (iOS) to provide seamless user experiences across devices",
+          "Collaborated closely with hardware, firmware, and product teams to translate IoT business requirements into robust, user-friendly software products"
+        ],
+        "technologies": ["Golang", "IoT", "Javascript", "Flutter", "Android", "iOS", "React Native"]
+      },
+      {
+        "year": "Apr 2025 - May 2026",
         "role": "Senior Mobile Developer",
         "company": "PT Sprint Asia Technology",
         "description": "",
