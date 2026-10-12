@@ -41,6 +41,8 @@ const ProjectItemComponent = ({ name, image, desc, logo }) => {
                     <img
                         src={logo || image}
                         alt=""
+                        loading="lazy"
+                        decoding="async"
                         className={logo ? "h-28 w-28 object-contain" : "clip-half object-cover"}
                     />
                 </div>

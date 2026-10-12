@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import aboutImg from "@/assets/profile-image2.jpg";
 import PricingItemComponent from "./component/PricingItemComponent";
 import { HiBadgeCheck } from "react-icons/hi";
@@ -16,7 +16,10 @@ const ProjectPage = () => {
 
     const [selectedOption, setSelectedOption] = useState(null);
 
-    const filteredItems = selectedOption === null ? data : data.filter((item) => item.type === selectedOption);
+    const filteredItems = useMemo(
+        () => (selectedOption === null ? data : data.filter((item) => item.type === selectedOption)),
+        [selectedOption],
+    );
 
     const [selectedItem, setSelectedItem] = useState(null);
 

@@ -100,7 +100,9 @@ const DetailProjectComponent = ({
                                         key={element}
                                         src={element}
                                         alt="element image"
-                                        className="mx-2 max-h-[500px] min-h-[200px] object-contain"
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="mx-2 max-h-[400px] min-h-[200px] shrink-0 object-contain"
                                     />
                                 ))}
                             </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { EXPERIENCES } from "../../constants/experience";
+import EXPERIENCES from "../../constants/experience_data.json";
 
 const ExperiencePage = () => {
     return (
@@ -17,10 +17,10 @@ const ExperiencePage = () => {
 
             {/* Detail Section */}
             <div>
-                {EXPERIENCES.map((item, index) => {
+                {EXPERIENCES.map((item) => {
                     return (
                         <div
-                            key={index}
+                            key={`${item.company}-${item.year}`}
                             className="mb-8 flex flex-wrap lg:justify-center"
                         >
                             {/* Year Section */}
