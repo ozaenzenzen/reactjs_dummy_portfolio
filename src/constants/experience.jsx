@@ -26,7 +26,19 @@ export const SHORT_DESCRIPTION = `5 years experience as software engineer using 
 
 export const EXPERIENCES = [
     {
-        year: "Apr 2025 - Present",
+        year: "May 2026 - Present",
+        role: "Product Developer",
+        company: "Undisclosed - Part Time",
+        description: `- Developed and maintained full-stack IoT business products, delivering end-to-end solutions from backend services to web and mobile applications
+            - Built scalable backend systems using Go and JavaScript to handle IoT device data processing, real-time communication, and business logic
+            - Designed and developed responsive web applications using React.js and modern JavaScript, creating intuitive user interfaces for IoT monitoring and management dashboards
+            - Developed cross-platform mobile applications using Flutter and React Native, along with native development using Kotlin (Android) and Swift (iOS) to provide seamless user experiences across devices
+            - Collaborated closely with hardware, firmware, and product teams to translate IoT business requirements into robust, user-friendly software products
+            `,
+        technologies: ["Go", "JavaScript", "React.js", "Flutter", "React Native", "Kotlin", "Swift", "IoT"],
+    },
+    {
+        year: "Apr 2025 - May 2026",
         role: "Senior Mobile Developer",
         company: "PT Sprint Asia Technology",
         description: `- Designed and built architecture for mobile applications
@@ -40,7 +52,7 @@ export const EXPERIENCES = [
         technologies: ["Flutter", "Android", "iOS", "Module", "SDK", "Firebase", "Analytics", "Flutter Add to Existing Native App", "React Native"],
     },
     {
-        year: "Nov 2021 - Mar 2025",
+        year: "Nov 2021 - Apr 2025",
         role: "Mobile Engineer",
         company: "PT Qoin Digital Indonesia",
         description: `As a mobile engineer, I am responsible of the development of a company projects mobile application using Flutter Framework. Design and build application for Android & iOS platform, enhance the performance of the application, involved in discussing the development timeline, integration and develop new features, work closely with cross-functional teams to define, design, and ship new features, and continuously discover, evaluate, and implement new technologies to maximize development efficiency.

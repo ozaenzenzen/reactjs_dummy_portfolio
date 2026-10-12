@@ -5,6 +5,7 @@ import Layout from "./routes/layout";
 import DashboardPage from "./routes/dashboard/page";
 import AboutMePage from "./routes/dashboard/AboutMePage";
 import ProjectPage from "./routes/dashboard/ProjectPage";
+import PublicationPage from "./routes/dashboard/PublicationPage";
 import ExperiencePage from "./routes/dashboard/ExperiencePage";
 import ContactPage from "./routes/dashboard/ContactPage";
 import DynamicTitle from "./routes/dashboard/component/DynamicTitle";
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
             { index: true, path: "/", element: <DashboardPage /> },
             { path: "/about", element: <AboutMePage /> },
             { path: "/project", element: <ProjectPage /> },
+            { path: "/publication", element: <PublicationPage /> },
             { path: "/experience", element: <ExperiencePage /> },
             { path: "/contact", element: <ContactPage /> },
         ],

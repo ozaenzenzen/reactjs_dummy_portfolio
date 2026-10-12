@@ -25,7 +25,7 @@ const convertLinks = (text) => {
     );
 };
 
-const ProjectItemComponent = ({ name, image, desc }) => {
+const ProjectItemComponent = ({ name, image, desc, logo }) => {
     return (
         <div
             data-aos="zoom-in"
@@ -33,11 +33,15 @@ const ProjectItemComponent = ({ name, image, desc }) => {
             className="relative flex h-[550px] w-full cursor-pointer flex-col items-center justify-start gap-6 overflow-hidden rounded-lg border-2 border-gray-700 hover:border-slate-500 hover:bg-slate-200 dark:hover:border-slate-500 dark:hover:bg-slate-900"
         >
             <div className="flex flex-col">
-                <div className="max-h-44 overflow-hidden">
+                <div
+                    className={`w-full overflow-hidden ${
+                        logo ? "flex min-h-44 max-h-44 items-center justify-center" : "max-h-44"
+                    }`}
+                >
                     <img
-                        src={image}
+                        src={logo || image}
                         alt=""
-                        className="clip-half object-cover"
+                        className={logo ? "h-28 w-28 object-contain" : "clip-half object-cover"}
                     />
                 </div>
                 <div className="flex w-full flex-col items-center justify-center gap-6 rounded-lg px-4 py-6">

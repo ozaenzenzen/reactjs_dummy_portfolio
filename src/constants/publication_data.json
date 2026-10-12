@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "title": "Implementation of Convolutional Neural Network for Android-Based Classification of Taekwondo Martial Arts",
+        "venue": "IEEE - International Conference",
+        "year": "2022",
+        "desc": "Authored an international conference paper on integrating a Convolutional Neural Network (CNN) deep-learning model into an Android application for real-time martial arts pose classification. The study compares the effect of the number of convolution layers, hidden layers, and dropout layers on test accuracy, with the best scenario reaching 61.28% accuracy, and integrates the model into a mobile app using TensorFlow Lite.",
+        "link": "https://ieeexplore.ieee.org/document/10017502",
+        "tags": [
+            "Deep Learning",
+            "CNN",
+            "TensorFlow",
+            "Android"
+        ]
+    }
+]

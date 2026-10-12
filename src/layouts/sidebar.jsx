@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import { navbarLinks, newMenus } from "@/constants";
 
@@ -61,16 +61,15 @@ export const Sidebar = forwardRef(({ isDesktopDevice, collapsed, setCollapsed },
                     </Link>
                 ))} */}
                 {newMenus.map((navbarLink) => (
-                    <Link
+                    <NavLink
                         key={navbarLink.title}
                         to={navbarLink.path}
-                        // className={cn("sidebar-group", collapsed && "md:items-center")}
-                        className={cn("sidebar-group", "my-2")}
+                        end={navbarLink.path === "/"}
+                        className={({ isActive }) => cn("sidebar-nav-link", "my-2", isActive && "sidebar-nav-link-active")}
                         onClick={() => setCollapsed(true)}
                     >
-                        {/* <p className={cn("sidebar-group-title", collapsed && "md:w-[45px]")}>{navbarLink.title}</p> */}
-                        <p className={cn("sidebar-group-title", !collapsed && "text-xl", collapsed && "md:w-[45px]")}>{navbarLink.title}</p>
-                    </Link>
+                        <p className={cn("sidebar-nav-title", !collapsed && "text-xl", collapsed && "md:w-[45px]")}>{navbarLink.title}</p>
+                    </NavLink>
                 ))}
             </div>
         </aside>

@@ -5,6 +5,7 @@ const titles = {
   "/": "Home - Fauzan's Lab",
   "/about": "About Me - Fauzan's Lab",
   "/project": "Project - Fauzan's Lab",
+  "/publication": "Publication - Fauzan's Lab",
   "/experience": "Experience - Fauzan's Lab",
   "/contact": "Contact - Fauzan's Lab"
 };

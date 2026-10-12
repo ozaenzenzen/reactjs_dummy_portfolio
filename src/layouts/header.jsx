@@ -8,7 +8,7 @@ import { cn } from "../utils/cn";
 import logoLight from "@/assets/logo-light.svg";
 import logoDark from "@/assets/logo-dark.svg";
 import { navbarLinks, newMenus } from "@/constants";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaHamburger } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -62,20 +62,16 @@ const Header = ({ collapsed, setCollapsed, isDesktopDevice }) => {
             <div className="flex items-center gap-x-3">
                 <div className="inline-flex w-full flex-row gap-y-4 space-x-2 overflow-y-auto overflow-x-hidden p-3 [scrollbar-width:_thin] lg:space-x-10">
                     {newMenus.map((newMenu) => (
-                        //     <Link
-                        //     key={newMenu.title}
-                        //     to={newMenu.path}
-                        //     className={cn("sidebar-group-title", collapsed && "md:items-center hidden lg:block")}
-                        // >
-                        //     <p className={cn("sidebar-group-title-v2", collapsed && "md:w-[45px]", "w-full cursor-pointer text-center p-2")}>{newMenu.title}</p>
-                        // </Link>
-                        <Link
+                        <NavLink
                             key={newMenu.title}
                             to={newMenu.path}
-                            className={cn("sidebar-group-title", "hidden md:block md:items-center")}
+                            end={newMenu.path === "/"}
+                            className={({ isActive }) =>
+                                cn("nav-link", "hidden md:inline-flex", isActive && "nav-link-active")
+                            }
                         >
-                            <p className={cn("sidebar-group-title-v2", "w-full cursor-pointer p-2 text-center")}>{newMenu.title}</p>
-                        </Link>
+                            {newMenu.title}
+                        </NavLink>
                     ))}
                 </div>
             </div>

@@ -10,19 +10,23 @@ export const newMenus = [
     },
     {
         title: "About Me",
-        path: 'about',
+        path: '/about',
     },
     {
         title: "Project",
-        path: 'project',
+        path: '/project',
+    },
+    {
+        title: "Publication",
+        path: '/publication',
     },
     {
         title: "Experience",
-        path: 'experience',
+        path: '/experience',
     },
     {
         title: "Contact",
-        path: 'contact',
+        path: '/contact',
     },
 ];
 

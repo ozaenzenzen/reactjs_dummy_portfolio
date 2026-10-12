@@ -71,6 +71,7 @@ const ProjectPage = () => {
                                         key={element.id}
                                         name={element.title}
                                         image={element.foto[0]}
+                                        logo={element.logo}
                                         desc={element.desc}
                                     />
                                 </button>
@@ -84,6 +85,12 @@ const ProjectPage = () => {
                                         title={element.title}
                                         description={element.desc}
                                         image={element.foto}
+                                        logo={element.logo}
+                                        company={element.company}
+                                        year={element.year}
+                                        platform={element.platform}
+                                        playstore={element.playstore}
+                                        appstore={element.appstore}
                                     />
                                 )}
                             </motion.div>

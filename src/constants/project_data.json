@@ -460,5 +460,126 @@
             "Flutter"
         ],
         "type": "Backend"
+    },
+    {
+        "id": "30",
+        "title": "Wekonnek Chat",
+        "desc": "B2B live chat and customer service backoffice application built with Flutter. Served as Senior Mobile Developer on a productivity and operations platform for business agents handling customer conversations at scale. Developed a Flutter Module SDK so the chat UI can be embedded into clients' existing Android or iOS apps.",
+        "foto": [
+            "assets/content/project/wekonnek-chat/logo.png"
+        ],
+        "logo": "assets/content/project/wekonnek-chat/logo.png",
+        "company": "PT Sprint Asia Technology",
+        "year": "2025 - 2026",
+        "platform": "Android / iOS",
+        "playstore": "https://play.google.com/store/apps/details?id=com.sprint.konnekadminapp",
+        "appstore": "https://apps.apple.com/id/app/wekonnek/id6760685990",
+        "tags": [
+            "Chat",
+            "Flutter",
+            "SDK",
+            "B2B"
+        ],
+        "type": "Company"
+    },
+    {
+        "id": "31",
+        "title": "Qoin Merchant",
+        "desc": "Merchant payment application for business owners. Mobile Engineer on a merchant-facing app covering QRIS payments and transaction management as part of Qoin Digital Indonesia's digital wallet ecosystem.",
+        "foto": [
+            "assets/content/project/qoin-merchant/logo.png"
+        ],
+        "logo": "assets/content/project/qoin-merchant/logo.png",
+        "company": "PT Qoin Digital Indonesia",
+        "year": "2024",
+        "platform": "Android",
+        "playstore": "https://play.google.com/store/apps/details?id=id.qoin.merchant",
+        "appstore": "",
+        "tags": [
+            "Payment",
+            "Flutter",
+            "QRIS"
+        ],
+        "type": "Company"
+    },
+    {
+        "id": "32",
+        "title": "Qoinpay / Qoin Digital Indonesia",
+        "desc": "Consumer-facing digital wallet application covering payments, KYC, and account management flows. Built facial recognition and motion detection using Google ML Kit Face Detection, integrated OCR document capture via ML Kit Text Recognition, and implemented financial-grade security hardening including signature validation, SSL pinning, data encryption, and code obfuscation.",
+        "foto": [
+            "assets/content/project/qoinpay/logo.png"
+        ],
+        "logo": "assets/content/project/qoinpay/logo.png",
+        "company": "PT Qoin Digital Indonesia",
+        "year": "2021 - 2024",
+        "platform": "Android / iOS",
+        "playstore": "https://play.google.com/store/apps/details?id=id.qoin",
+        "appstore": "https://apps.apple.com/id/app/qoin-digital-indonesia/id1603832217",
+        "tags": [
+            "Wallet",
+            "Flutter",
+            "ML Kit",
+            "Fintech"
+        ],
+        "type": "Company"
+    },
+    {
+        "id": "33",
+        "title": "INISA",
+        "desc": "Indonesian public service mobile application. Mobile Engineer on a government-facing application serving citizen identity and public service use cases for PT Digital Pemerintahan Indonesia.",
+        "foto": [
+            "assets/content/project/inisa/logo.png"
+        ],
+        "logo": "assets/content/project/inisa/logo.png",
+        "company": "PT Qoin Digital Indonesia",
+        "year": "2021 - 2023",
+        "platform": "Android / iOS",
+        "playstore": "https://play.google.com/store/apps/details?id=id.inisa",
+        "appstore": "https://apps.apple.com/id/app/inisa/id1594131499",
+        "tags": [
+            "Government",
+            "Flutter",
+            "Public Service"
+        ],
+        "type": "Company"
+    },
+    {
+        "id": "34",
+        "title": "Digital Korlantas POLRI",
+        "desc": "Digital Korlantas POLRI - the Indonesian National Police's official app for online driver's license (SIM) renewal, including identity verification, document submission, and payment flows.",
+        "foto": [
+            "assets/content/project/digital-korlantas/logo.png"
+        ],
+        "logo": "assets/content/project/digital-korlantas/logo.png",
+        "company": "PT Qoin Digital Indonesia",
+        "year": "2021 - 2023",
+        "platform": "Android / iOS",
+        "playstore": "https://play.google.com/store/apps/details?id=id.qoin.korlantas.user",
+        "appstore": "https://apps.apple.com/id/app/digital-korlantas-polri/id1565558949",
+        "tags": [
+            "Government",
+            "Flutter",
+            "Identity"
+        ],
+        "type": "Company"
+    },
+    {
+        "id": "35",
+        "title": "ETA POMM",
+        "desc": "Mobile application developed using Flutter during an internship at PT Deggan Technowave. Collaborated with senior engineers, coordinated with QA on bug triage and performance issues, and assisted with build, versioning, and release tasks.",
+        "foto": [
+            "assets/content/project/eta-pomm/logo.png"
+        ],
+        "logo": "assets/content/project/eta-pomm/logo.png",
+        "company": "PT Deggan Technowave",
+        "year": "2021",
+        "platform": "Android",
+        "playstore": "",
+        "appstore": "",
+        "tags": [
+            "Flutter",
+            "Mobile"
+        ],
+        "type": "Company"
     }
 ]

@@ -1,8 +1,21 @@
-import React, { useState } from "react";
-import { Description, Dialog, DialogPanel, DialogTitle, Button } from "@headlessui/react";
+import React from "react";
+import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from "@headlessui/react";
 import { MdClose } from "react-icons/md";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 
-const DetailProjectComponent = ({ isOpen, onClose, title, description, image }) => {
+const DetailProjectComponent = ({
+    isOpen,
+    onClose,
+    title,
+    description,
+    image,
+    logo,
+    company,
+    year,
+    platform,
+    playstore,
+    appstore,
+}) => {
     return (
         <Dialog
             open={isOpen}
@@ -10,6 +23,10 @@ const DetailProjectComponent = ({ isOpen, onClose, title, description, image }) 
             className="relative z-10 focus:outline-none"
             onClose={onClose}
         >
+            <DialogBackdrop
+                transition
+                className="fixed inset-0 z-10 bg-slate-900/30 backdrop-blur-sm duration-300 ease-out data-[closed]:opacity-0"
+            />
             <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
                 <div className="flex min-h-full items-center justify-center p-4">
                     <DialogPanel
@@ -20,40 +37,74 @@ const DetailProjectComponent = ({ isOpen, onClose, title, description, image }) 
                             <button onClick={onClose}>
                                 <MdClose className="size-8 text-slate-950 dark:text-slate-50" />
                             </button>
-                            {/* <Button
-                                className="inline-flex items-center gap-2 rounded-md bg-gray-700 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-600 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white"
-                                onClick={onClose}
-                            >
-                                Back
-                            </Button> */}
                         </div>
-                        <div className="mb-4 flex flex-nowrap justify-center overflow-x-scroll">
-                            {image.map((element) => (
+
+                        {logo && (
+                            <div className="mb-6 flex justify-center">
                                 <img
-                                    src={element}
-                                    alt="element image"
-                                    className="mx-2 max-h-[500px] min-h-[200px] object-contain"
-                                ></img>
-                            ))}
-                        </div>
-                        {/* <img
-                            src={image}
-                            alt="image"
-                            className="h-[250px]"
-                        /> */}
+                                    src={logo}
+                                    alt={`${title} logo`}
+                                    className="h-24 w-24 object-contain"
+                                />
+                            </div>
+                        )}
+
                         <DialogTitle
                             as="h3"
-                            className="title mb-4 text-xl"
-                            // className="text-base/7 font-medium text-white"
+                            className="title mb-4 text-center text-xl"
                         >
                             {title}
-                            {/* Payment successful */}
                         </DialogTitle>
-                        <p className="description">
-                            {/* <p className="mt-2 text-sm/6 text-white/50"> */}
-                            {description}
-                            {/* Your payment has been successfully submitted. We’ve sent you an email with all of the details of your order. */}
-                        </p>
+
+                        {(company || year || platform) && (
+                            <div className="mb-4 flex flex-wrap items-center justify-center gap-2">
+                                {company && <span className="meta-badge">{company}</span>}
+                                {year && <span className="meta-badge">{year}</span>}
+                                {platform && <span className="meta-badge">{platform}</span>}
+                            </div>
+                        )}
+
+                        <p className="description display-linebreak mb-6">{description}</p>
+
+                        {(playstore || appstore) && (
+                            <div className="mb-4 flex flex-wrap items-center justify-center gap-3">
+                                {playstore && (
+                                    <a
+                                        href={playstore}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="store-btn"
+                                    >
+                                        <FaGooglePlay className="size-5" />
+                                        Google Play
+                                    </a>
+                                )}
+                                {appstore && (
+                                    <a
+                                        href={appstore}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="store-btn"
+                                    >
+                                        <FaApple className="size-5" />
+                                        App Store
+                                    </a>
+                                )}
+                            </div>
+                        )}
+
+                        {image && image.length > 0 && (!logo || image.length > 1) && (
+                            <div className="mb-4 flex flex-nowrap justify-center overflow-x-scroll">
+                                {image.map((element) => (
+                                    <img
+                                        key={element}
+                                        src={element}
+                                        alt="element image"
+                                        className="mx-2 max-h-[500px] min-h-[200px] object-contain"
+                                    />
+                                ))}
+                            </div>
+                        )}
                     </DialogPanel>
                 </div>
             </div>
