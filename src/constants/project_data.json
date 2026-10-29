@@ -469,7 +469,7 @@
             "assets/content/project/wekonnek-chat/logo.png"
         ],
         "logo": "assets/content/project/wekonnek-chat/logo.png",
-        "company": "PT Sprint Asia Technology",
+        "company": "",
         "year": "2025 - 2026",
         "platform": "Android / iOS",
         "playstore": "https://play.google.com/store/apps/details?id=com.sprint.konnekadminapp",
@@ -485,12 +485,12 @@
     {
         "id": "31",
         "title": "Qoin Merchant",
-        "desc": "Merchant payment application for business owners. Mobile Engineer on a merchant-facing app covering QRIS payments and transaction management as part of Qoin Digital Indonesia's digital wallet ecosystem.",
+        "desc": "Merchant payment application for business owners. Mobile Engineer on a merchant-facing app covering QRIS payments and transaction management as part of a digital wallet ecosystem.",
         "foto": [
             "assets/content/project/qoin-merchant/logo.png"
         ],
         "logo": "assets/content/project/qoin-merchant/logo.png",
-        "company": "PT Qoin Digital Indonesia",
+        "company": "",
         "year": "2024",
         "platform": "Android",
         "playstore": "https://play.google.com/store/apps/details?id=id.qoin.merchant",
@@ -510,7 +510,7 @@
             "assets/content/project/qoinpay/logo.png"
         ],
         "logo": "assets/content/project/qoinpay/logo.png",
-        "company": "PT Qoin Digital Indonesia",
+        "company": "",
         "year": "2021 - 2024",
         "platform": "Android / iOS",
         "playstore": "https://play.google.com/store/apps/details?id=id.qoin",
@@ -531,7 +531,7 @@
             "assets/content/project/inisa/logo.png"
         ],
         "logo": "assets/content/project/inisa/logo.png",
-        "company": "PT Qoin Digital Indonesia",
+        "company": "",
         "year": "2021 - 2023",
         "platform": "Android / iOS",
         "playstore": "https://play.google.com/store/apps/details?id=id.inisa",
@@ -551,7 +551,7 @@
             "assets/content/project/digital-korlantas/logo.png"
         ],
         "logo": "assets/content/project/digital-korlantas/logo.png",
-        "company": "PT Qoin Digital Indonesia",
+        "company": "",
         "year": "2021 - 2023",
         "platform": "Android / iOS",
         "playstore": "https://play.google.com/store/apps/details?id=id.qoin.korlantas.user",
@@ -566,12 +566,12 @@
     {
         "id": "35",
         "title": "ETA POMM",
-        "desc": "Mobile application developed using Flutter during an internship at PT Deggan Technowave. Collaborated with senior engineers, coordinated with QA on bug triage and performance issues, and assisted with build, versioning, and release tasks.",
+        "desc": "Mobile application developed using Flutter during an internship. Collaborated with senior engineers, coordinated with QA on bug triage and performance issues, and assisted with build, versioning, and release tasks.",
         "foto": [
             "assets/content/project/eta-pomm/logo.png"
         ],
         "logo": "assets/content/project/eta-pomm/logo.png",
-        "company": "PT Deggan Technowave",
+        "company": "",
         "year": "2021",
         "platform": "Android",
         "playstore": "",
