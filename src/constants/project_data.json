@@ -464,7 +464,7 @@
     {
         "id": "30",
         "title": "Wekonnek Chat",
-        "desc": "B2B live chat and customer service backoffice application built with Flutter. Served as Senior Mobile Developer on a productivity and operations platform for business agents handling customer conversations at scale. Developed a Flutter Module SDK so the chat UI can be embedded into clients' existing Android or iOS apps.",
+        "desc": "B2B live chat and customer service backoffice application built with Flutter. Served as Senior Mobile Developer on a productivity and operations platform for business agents handling customer conversations at scale. Sole mobile developer of the backoffice app, used by business agents to handle customer chats.",
         "foto": [
             "assets/content/project/wekonnek-chat/logo.png"
         ],
@@ -484,6 +484,27 @@
     },
     {
         "id": "31",
+        "title": "Wekonnek Chat SDK",
+        "desc": "Embeddable customer chat SDK for mobile apps, part of the Wekonnek chat management platform (web backoffice, mobile backoffice, web SDK, and mobile SDK). Built solo as a Flutter Module (Add-to-App) so client businesses can plug the end-user chat interface into their existing native Android or iOS apps, including Kotlin Multiplatform (KMP) Android projects, letting their customers chat directly with the business's admin team. Features real-time messaging over WebSocket, push notifications, file and image attachments, and platform channels that pass user identity from the host app into the SDK. Distributed to clients through a shared repository and running in production in a healthcare client's Android and iOS apps.",
+        "foto": [
+            "assets/content/project/wekonnek-chat/logo.png"
+        ],
+        "logo": "assets/content/project/wekonnek-chat/logo.png",
+        "company": "",
+        "year": "2025 - 2026",
+        "platform": "Android / iOS",
+        "playstore": "",
+        "appstore": "",
+        "tags": [
+            "SDK",
+            "Flutter",
+            "Add-to-App",
+            "Chat"
+        ],
+        "type": "Company"
+    },
+    {
+        "id": "32",
         "title": "Qoin Merchant",
         "desc": "Merchant payment application for business owners. Mobile Engineer on a merchant-facing app covering QRIS payments and transaction management as part of a digital wallet ecosystem.",
         "foto": [
@@ -503,7 +524,7 @@
         "type": "Company"
     },
     {
-        "id": "32",
+        "id": "33",
         "title": "Qoinpay / Qoin Digital Indonesia",
         "desc": "Consumer-facing digital wallet application covering payments, KYC, and account management flows. Built facial recognition and motion detection using Google ML Kit Face Detection, integrated OCR document capture via ML Kit Text Recognition, and implemented financial-grade security hardening including signature validation, SSL pinning, data encryption, and code obfuscation.",
         "foto": [
@@ -524,7 +545,7 @@
         "type": "Company"
     },
     {
-        "id": "33",
+        "id": "34",
         "title": "INISA",
         "desc": "Indonesian public service mobile application. Mobile Engineer on a government-facing application serving citizen identity and public service use cases for PT Digital Pemerintahan Indonesia.",
         "foto": [
@@ -544,7 +565,7 @@
         "type": "Company"
     },
     {
-        "id": "34",
+        "id": "35",
         "title": "Digital Korlantas POLRI",
         "desc": "Digital Korlantas POLRI - the Indonesian National Police's official app for online driver's license (SIM) renewal, including identity verification, document submission, and payment flows.",
         "foto": [
@@ -564,7 +585,7 @@
         "type": "Company"
     },
     {
-        "id": "35",
+        "id": "36",
         "title": "ETA POMM",
         "desc": "Mobile application developed using Flutter during an internship. Collaborated with senior engineers, coordinated with QA on bug triage and performance issues, and assisted with build, versioning, and release tasks.",
         "foto": [
